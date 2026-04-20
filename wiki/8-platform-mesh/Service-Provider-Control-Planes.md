@@ -14,6 +14,6 @@ Control planes translate declarative intentions into real-world implementations.
 - **For providers** - standardized way to expose services via declarative API while controlling implementation details
 - **For consumers** - consistent interface for discovering, requesting, and managing capabilities across providers
 
-Control planes support the [[Managed-Service-Provider-Pattern]] with APIExports reconciled by remote components on the provider's environment.
+Control planes support the [Managed Service Provider Pattern](Managed-Service-Provider-Pattern.md) with APIExports reconciled by remote components on the provider's environment.
 
-See also: [[Platform-Mesh]]
+See also: [Platform Mesh](Platform-Mesh.md)

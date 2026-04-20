@@ -25,6 +25,6 @@ Entry points by stack level:
 
 ## Next Steps
 
-- **Assemble** -- see [[Showroom-Scenarios]] for working integration examples
+- **Assemble** -- see [Showroom Scenarios](2-infrastructure-services/Showroom-Scenarios.md) for working integration examples
 - **Adapt** -- most components are extensible for your infrastructure
 - **Pick and choose** -- use only what provides value for your use case

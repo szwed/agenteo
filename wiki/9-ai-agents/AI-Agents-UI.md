@@ -1,6 +1,6 @@
 # AI Agents UI
 
-A2A Message Visualizer for [[AI-Agents-Overview]]. Built with Next.js 15 and React 19.
+A2A Message Visualizer for [AI Agents Overview](AI-Agents-Overview.md). Built with Next.js 15 and React 19.
 
 ## Layout
 
@@ -55,5 +55,5 @@ make caipe-ui-docker-compose
 
 ## See Also
 
-- [[AI-Use-Cases]] — pre-built skills shown in the use cases gallery
-- [[AI-Knowledge-Bases]] — knowledge base views (ingest, search, graph)
+- [AI Use Cases](AI-Use-Cases.md) — pre-built skills shown in the use cases gallery
+- [AI Knowledge Bases](AI-Knowledge-Bases.md) — knowledge base views (ingest, search, graph)

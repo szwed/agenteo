@@ -61,13 +61,13 @@ Plugin architecture supports three patterns:
 
 ## CNOE Reference
 
-Backstage is the endorsed developer portal in the CNOE framework (see [[CNOE-Technology-Choices]]). In the [[IDP-Reference-Implementation]], Backstage is configured with:
+Backstage is the endorsed developer portal in the CNOE framework (see [CNOE Technology Choices](../CNOE-Technology-Choices.md)). In the [IDP Reference Implementation](IDP-Reference-Implementation.md), Backstage is configured with:
 - Keycloak SSO
 - ArgoCD integration
 - Argo Workflows visibility
 - Templates for creating deployments, Spark jobs, and cloud resources
 
-Backstage is also the "B" in the [[BACK-Stack]] (Backstage + ArgoCD + Crossplane + Kyverno).
+Backstage is also the "B" in the [BACK Stack](../BACK-Stack.md) (Backstage + ArgoCD + Crossplane + Kyverno).
 
 ## Comparison with OpenMFP
 
@@ -78,11 +78,11 @@ Backstage is also the "B" in the [[BACK-Stack]] (Backstage + ArgoCD + Crossplane
 | Target user | Developers (catalog, templates, docs) | Platform operators (UI composition, multi-team) |
 | K8s lifecycle | Views K8s resources | Manages UI extensions as K8s CRDs |
 
-See [[OpenMFP-Portal]] for full OpenMFP documentation.
+See [OpenMFP Portal](OpenMFP-Portal.md) for full OpenMFP documentation.
 
 ## Links
 
 - https://backstage.io
 - https://github.com/backstage/backstage
-- [[Portals-Overview]] -- comparison of portal approaches
-- [[Developer-Portal]] -- developer portal as an IDP capability
+- [Portals Overview](Portals-Overview.md) -- comparison of portal approaches
+- [Developer Portal](Developer-Portal.md) -- developer portal as an IDP capability

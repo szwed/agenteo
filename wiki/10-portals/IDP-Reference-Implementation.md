@@ -1,6 +1,6 @@
 # IDP Reference Implementation
 
-The CNOE IDP Reference Implementation is a deployable stack that demonstrates how CNOE-endorsed technologies work together as an Internal Developer Platform. It uses the **IDPBuilder** tool to stand up the full stack locally or in cloud environments. This page covers the CNOE reference approach; for ApeiroRA's equivalent demonstration concepts, see [[Showroom-Scenarios]].
+The CNOE IDP Reference Implementation is a deployable stack that demonstrates how CNOE-endorsed technologies work together as an Internal Developer Platform. It uses the **IDPBuilder** tool to stand up the full stack locally or in cloud environments. This page covers the CNOE reference approach; for ApeiroRA's equivalent demonstration concepts, see [Showroom Scenarios](../2-infrastructure-services/Showroom-Scenarios.md).
 
 ## IDPBuilder
 
@@ -23,11 +23,11 @@ The full reference implementation adds these packages on top of the core:
 
 | Component | Role |
 |-----------|------|
-| **ArgoCD** | GitOps continuous delivery ([[CI-CD]]) |
-| **Argo Workflows** | Workflow orchestration for CI pipelines ([[CI-CD]]) |
-| **Backstage** | Developer portal -- software catalog, templates ([[Developer-Portal]]) |
-| **Crossplane** | Infrastructure as Code with AWS providers ([[Infrastructure-as-Code]]) |
-| **External Secrets** | Secret generation and coordination ([[Secrets-Management]]) |
+| **ArgoCD** | GitOps continuous delivery ([CI CD](../4-kubernetes/CI-CD.md)) |
+| **Argo Workflows** | Workflow orchestration for CI pipelines ([CI CD](../4-kubernetes/CI-CD.md)) |
+| **Backstage** | Developer portal -- software catalog, templates ([Developer Portal](Developer-Portal.md)) |
+| **Crossplane** | Infrastructure as Code with AWS providers ([Infrastructure as Code](../4-kubernetes/Infrastructure-as-Code.md)) |
+| **External Secrets** | Secret generation and coordination ([Secrets Management](../8-platform-mesh/Secrets-Management.md)) |
 | **Keycloak** | Identity provider, SSO for all components |
 | **Spark Operator** | Example workload demonstrating Spark job integration |
 
@@ -66,14 +66,14 @@ Developer --> Backstage --> Gitea (Git repo) --> ArgoCD --> Cluster
                               +--> ArgoCD Application (auto-created)
 ```
 
-All interactions flow through Git. Backstage is the UI layer; ArgoCD is the reconciliation engine. This demonstrates the [[GitOps-and-Repositories]] pattern end to end.
+All interactions flow through Git. Backstage is the UI layer; ArgoCD is the reconciliation engine. This demonstrates the [GitOps and Repositories](../4-kubernetes/GitOps-and-Repositories.md) pattern end to end.
 
 ## Relation to ApeiroRA Showroom
 
-The CNOE reference implementation and ApeiroRA [[Showroom-Scenarios]] serve similar purposes -- demonstrating platform capabilities through deployable stacks. Key differences:
+The CNOE reference implementation and ApeiroRA [Showroom Scenarios](../2-infrastructure-services/Showroom-Scenarios.md) serve similar purposes -- demonstrating platform capabilities through deployable stacks. Key differences:
 
 - **CNOE ref impl** focuses on the developer platform toolchain (CI/CD, portal, IaC)
-- **ApeiroRA showroom** demonstrates the full 7-layer architecture including [[Data-Fabric]], [[Konfidence]] lifecycle management, and [[Platform-Mesh]] multi-cloud capabilities
+- **ApeiroRA showroom** demonstrates the full 7-layer architecture including [Data Fabric](../6-data-fabric/Data-Fabric.md), [Konfidence](../5-software-delivery/Konfidence.md) lifecycle management, and [Platform Mesh](../8-platform-mesh/Platform-Mesh.md) multi-cloud capabilities
 - Both use Kubernetes as the foundation and GitOps for configuration management
 
 ## Getting Started
@@ -87,16 +87,16 @@ Access UIs at `https://cnoe.localtest.me:8443/` (Backstage, ArgoCD, Argo Workflo
 
 ## See Also
 
-- [[Showroom-Scenarios]] -- ApeiroRA demonstration scenarios
-- [[CNOE-Technology-Choices]] -- Full technology mapping
-- [[CI-CD]] -- ArgoCD and Argo Workflows details
-- [[Developer-Portal]] -- Backstage details
-- [[Infrastructure-as-Code]] -- Crossplane details
-- [[CNOE]] -- Framework overview
+- [Showroom Scenarios](../2-infrastructure-services/Showroom-Scenarios.md) -- ApeiroRA demonstration scenarios
+- [CNOE Technology Choices](../CNOE-Technology-Choices.md) -- Full technology mapping
+- [CI CD](../4-kubernetes/CI-CD.md) -- ArgoCD and Argo Workflows details
+- [Developer Portal](Developer-Portal.md) -- Backstage details
+- [Infrastructure as Code](../4-kubernetes/Infrastructure-as-Code.md) -- Crossplane details
+- [CNOE](../CNOE.md) -- Framework overview
 
 ## Deep Dive
 
-- [[IDPBuilder-Details]] -- Networking, certificates, OCI registry, Gitea integration
-- [[IDPBuilder-Stacks]] -- Available community stacks (Localstack, Dapr, Kyverno, Istio, etc.)
-- [[Backstage-Plugins]] -- CNOE-developed Backstage plugins
-- [[CNOE-CLI]] -- Template generation and verification tools
+- [IDPBuilder Details](IDPBuilder-Details.md) -- Networking, certificates, OCI registry, Gitea integration
+- [IDPBuilder Stacks](IDPBuilder-Stacks.md) -- Available community stacks (Localstack, Dapr, Kyverno, Istio, etc.)
+- [Backstage Plugins](Backstage-Plugins.md) -- CNOE-developed Backstage plugins
+- [CNOE CLI](CNOE-CLI.md) -- Template generation and verification tools

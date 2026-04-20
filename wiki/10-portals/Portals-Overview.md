@@ -14,7 +14,7 @@ CNCF Graduated project, created by Spotify. An open framework for building devel
 - Plugin ecosystem (200+ open-source plugins)
 - Focus: **developer productivity** -- catalog, templates, documentation, search
 
-See [[Backstage]] for full details.
+See [Backstage](Backstage.md) for full details.
 
 ### OpenMFP
 
@@ -25,7 +25,7 @@ Open Micro Frontend Platform from ApeiroRA / NeoNephos Foundation. A **micro fro
 - Technology-agnostic -- teams choose their own frontend stack
 - Focus: **runtime UI composition** -- independent release cycles, multi-team autonomy
 
-See [[OpenMFP-Portal]] for full details.
+See [OpenMFP Portal](OpenMFP-Portal.md) for full details.
 
 ## Comparison
 
@@ -41,5 +41,5 @@ Both aim to solve UI fragmentation. Backstage centralizes developer tooling arou
 
 ## See Also
 
-- [[Developer-Portal]] -- developer portal as an IDP capability
-- [[Micro-Frontends]] -- micro frontend architecture in ApeiroRA
+- [Developer Portal](Developer-Portal.md) -- developer portal as an IDP capability
+- [Micro Frontends](../5-software-delivery/Micro-Frontends.md) -- micro frontend architecture in ApeiroRA

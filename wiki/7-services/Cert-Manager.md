@@ -33,7 +33,7 @@ Adds certificates and certificate issuers as first-class resource types in Kuber
 - Integration with service mesh (Istio, Linkerd)
 - Certificate lifecycle events and metrics
 
-Related: [[Secrets-Management]] (PKI/ACME), [[Key-Management]].
+Related: [Secrets Management](../8-platform-mesh/Secrets-Management.md) (PKI/ACME), [Key Management](../8-platform-mesh/Key-Management.md).
 
 ## Links
 

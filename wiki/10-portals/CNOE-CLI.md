@@ -1,6 +1,6 @@
 # CNOE CLI
 
-The CNOE CLI streamlines Internal Developer Platform workflows by converting Kubernetes CRDs, Crossplane XRDs, and Terraform modules into [[Developer-Portal|Backstage]] templates. It also provides verification tooling to check cluster readiness before deploying resources.
+The CNOE CLI streamlines Internal Developer Platform workflows by converting Kubernetes CRDs, Crossplane XRDs, and Terraform modules into [Backstage](Developer-Portal.md) templates. It also provides verification tooling to check cluster readiness before deploying resources.
 
 Install from [cnoe-io/cnoe-cli](https://github.com/cnoe-io/cnoe-cli).
 
@@ -80,6 +80,6 @@ Verifications can also run inside Backstage via the Scaffolder Backend Plugin, h
 
 ## See Also
 
-- [[Developer-Portal]] -- Backstage developer portal
-- [[IDP-Reference-Implementation]] -- CNOE reference stack
-- [[Backstage-Plugins]] -- CNOE-developed Backstage plugins
+- [Developer Portal](Developer-Portal.md) -- Backstage developer portal
+- [IDP Reference Implementation](IDP-Reference-Implementation.md) -- CNOE reference stack
+- [Backstage Plugins](Backstage-Plugins.md) -- CNOE-developed Backstage plugins

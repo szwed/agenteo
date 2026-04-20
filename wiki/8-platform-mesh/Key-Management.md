@@ -20,4 +20,4 @@ OpenKCM extends the keychain concept across multiple clusters and heterogeneous 
 - **Krypton** - manages L2-L4 key hierarchy; key assignment, rotation, and disabling
 - **Infrastructure integration** - connects to providers like IronCore and CobaltCore (block/object storage); plugin mechanism for extensions
 
-See also: [[Security]], [[Platform-Mesh-Account-Model]]
+See also: [Security](Security.md), [Platform Mesh Account Model](Platform-Mesh-Account-Model.md)

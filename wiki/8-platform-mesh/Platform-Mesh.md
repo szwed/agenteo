@@ -6,19 +6,19 @@ Transcends the traditional IaaS/PaaS/SaaS layering -- both higher-level and lowe
 
 ## Key Technologies
 
-- **kcp** - [[User-Facing-Control-Plane]] foundation (KRM-based API)
-- **[[OpenMFP]]** - micro frontend integration
+- **kcp** - [User Facing Control Plane](User-Facing-Control-Plane.md) foundation (KRM-based API)
+- **[OpenMFP](../5-software-delivery/OpenMFP.md)** - micro frontend integration
 - **OpenFGA** - relationship-based authorization
 - **Keycloak** - identity management
 
 ## Sub-Topics
 
-- [[Platform-Mesh-Design-Goals]]
-- [[Platform-Mesh-Guiding-Principles]]
-- [[Platform-Mesh-Design-Decisions]]
-- [[Platform-Mesh-Perspectives]]
-- [[Service-Provider-Control-Planes]]
-- [[Platform-Mesh-Account-Model]]
-- [[Platform-Mesh-Security]]
-- [[Service-Concepts]]
-- [[Managed-Service-Provider-Pattern]]
+- [Platform Mesh Design Goals](Platform-Mesh-Design-Goals.md)
+- [Platform Mesh Guiding Principles](Platform-Mesh-Guiding-Principles.md)
+- [Platform Mesh Design Decisions](Platform-Mesh-Design-Decisions.md)
+- [Platform Mesh Perspectives](Platform-Mesh-Perspectives.md)
+- [Service Provider Control Planes](Service-Provider-Control-Planes.md)
+- [Platform Mesh Account Model](Platform-Mesh-Account-Model.md)
+- [Platform Mesh Security](Platform-Mesh-Security.md)
+- [Service Concepts](Service-Concepts.md)
+- [Managed Service Provider Pattern](Managed-Service-Provider-Pattern.md)

@@ -20,4 +20,4 @@ With self-describing resources and metadata defining business object association
 3. Manage opportunities and generate Quotes
 4. Create Sales Orders referencing Quotes
 
-See also: [[Data-Fabric]], [[Data-Fabric-Components]]
+See also: [Data Fabric](Data-Fabric.md), [Data Fabric Components](Data-Fabric-Components.md)

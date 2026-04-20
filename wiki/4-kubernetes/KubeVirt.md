@@ -4,7 +4,7 @@
 
 ## Overview
 
-KubeVirt adds VM management to Kubernetes through [[KRM]] Custom Resource Definitions and the [[Controller-Pattern]]. It delegates scheduling, networking, and storage to Kubernetes while providing the virtualization layer via libvirt/KVM.
+KubeVirt adds VM management to Kubernetes through [KRM](KRM.md) Custom Resource Definitions and the [Controller Pattern](Controller-Pattern.md). It delegates scheduling, networking, and storage to Kubernetes while providing the virtualization layer via libvirt/KVM.
 
 Use cases:
 - Legacy workloads that cannot be containerized
@@ -64,7 +64,7 @@ VM states: Stopped, Provisioning, Starting, Running, Paused, Migrating, Stopping
 
 ## How It Fits
 
-KubeVirt extends the Kubernetes work plane with VM capabilities (see [[Control-Data-Work-Planes]]). It follows the same patterns as native Kubernetes — [[KRM]] for declarative resource definitions, [[Controller-Pattern]] for reconciliation loops. The "KubeVirt Razor" principle: if something is useful for Pods, it should not be implemented only for VMs.
+KubeVirt extends the Kubernetes work plane with VM capabilities (see [Control Data Work Planes](Control-Data-Work-Planes.md)). It follows the same patterns as native Kubernetes — [KRM](KRM.md) for declarative resource definitions, [Controller Pattern](Controller-Pattern.md) for reconciliation loops. The "KubeVirt Razor" principle: if something is useful for Pods, it should not be implemented only for VMs.
 
 ## Links
 

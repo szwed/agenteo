@@ -16,10 +16,10 @@ OCM serves as a release channel containing the qualified version vector of all s
 
 ## Security Compliance
 
-The OCM coordinate system is the crucial link for [[Security-Compliance-Automation]]. It provides unique component version identifiers that correlate SBoMs and scanner signals in a backoffice data lake.
+The OCM coordinate system is the crucial link for [Security Compliance Automation](../8-platform-mesh/Security-Compliance-Automation.md). It provides unique component version identifiers that correlate SBoMs and scanner signals in a backoffice data lake.
 
 ## CNOE Perspective
 
 CNOE uses **OCI-compliant container registries** as artifact registries, emphasizing signed and traceable artifacts with software supply-chain security (SSSC) best practices. For packaging and templating, CNOE supports multiple distribution mechanisms (OCI artifacts, Helm, Kustomize) deployed via GitOps (Argo CD, Flux). This aligns with Apeiro's OCM-based SBoD approach -- both treat OCI registries as the transport layer for signed components. Where Apeiro uses OCM as the unifying abstraction for machine-readable bills of delivery, CNOE provides the complementary CI/CD pipeline and registry infrastructure that produces and consumes those artifacts.
 
-See also: [[Lifecycle-Management]]
+See also: [Lifecycle Management](Lifecycle-Management.md)

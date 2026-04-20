@@ -1,6 +1,6 @@
 # Micro Frontends
 
-Architectural pattern for integrating independently developed UIs of microservice components into a consistent holistic interface. Apeiro adopts [[OpenMFP]] as the key integration component.
+Architectural pattern for integrating independently developed UIs of microservice components into a consistent holistic interface. Apeiro adopts [OpenMFP](OpenMFP.md) as the key integration component.
 
 ## Challenges
 

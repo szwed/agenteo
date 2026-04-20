@@ -13,10 +13,10 @@ Learned Kubernetes skills become portable across all layers of the cloud stack.
 
 ## Foundation for Managed K8s-as-a-Service
 
-HCP architecture is the basis for building [[Managed-Kubernetes-as-a-Service]] offerings -- the indispensable platform runtime service. Enables universal on-demand runtimes with portability across infrastructure providers.
+HCP architecture is the basis for building [Managed Kubernetes as a Service](Managed-Kubernetes-as-a-Service.md) offerings -- the indispensable platform runtime service. Enables universal on-demand runtimes with portability across infrastructure providers.
 
-Enterprise-grade K8s-as-a-Service requires more than simple HCP: dynamic seed cluster creation across heterogeneous providers/regions, autonomous operations (auto-scaling, auto-updating, self-healing), and dedicated management logic captured in a product like [[Managed-Kubernetes-as-a-Service|Gardener]].
+Enterprise-grade K8s-as-a-Service requires more than simple HCP: dynamic seed cluster creation across heterogeneous providers/regions, autonomous operations (auto-scaling, auto-updating, self-healing), and dedicated management logic captured in a product like [Gardener](Managed-Kubernetes-as-a-Service.md).
 
 ## CAPI and Hosted Control Planes
 
-[[Cluster-API]] supports HCP through dedicated control plane providers such as [Kamaji](https://github.com/clastix/cluster-api-control-plane-provider-kamaji), [k0smotron](https://github.com/k0sproject/k0smotron), and the [Hosted Control Plane provider](https://github.com/teutonet/cluster-api-provider-hosted-control-plane). These providers run workload cluster control planes as pods inside a management cluster rather than on dedicated VMs, bringing the cost and operational benefits of Kubeception to the CAPI ecosystem.
+[Cluster API](Cluster-API.md) supports HCP through dedicated control plane providers such as [Kamaji](https://github.com/clastix/cluster-api-control-plane-provider-kamaji), [k0smotron](https://github.com/k0sproject/k0smotron), and the [Hosted Control Plane provider](https://github.com/teutonet/cluster-api-provider-hosted-control-plane). These providers run workload cluster control planes as pods inside a management cluster rather than on dedicated VMs, bringing the cost and operational benefits of Kubeception to the CAPI ecosystem.

@@ -4,7 +4,7 @@
 
 ## Botanical Architecture
 
-Kubernetes-in-Kubernetes ([[Hosted-Control-Planes|Kubeception]]):
+Kubernetes-in-Kubernetes ([Kubeception](Hosted-Control-Planes.md)):
 
 - **Garden Cluster** -- central management layer (nodeless). Brain of the Gardener landscape: API server, etcd, controllers. Users create/modify/delete shoot clusters here.
 - **Seed Clusters** -- host the control planes of shoot clusters. Provide infrastructure for efficient resource utilization and operational independence.
@@ -19,7 +19,7 @@ Kubernetes-in-Kubernetes ([[Hosted-Control-Planes|Kubeception]]):
 
 ## Blueprint for MSP Pattern
 
-Gardener architecture provided the blueprint for the [[Multi-Cloud-Service-Provider]] pattern -- a service provisioning system that initializes and manages its own hosting infrastructure across the cloud-edge continuum.
+Gardener architecture provided the blueprint for the [Multi Cloud Service Provider](Multi-Cloud-Service-Provider.md) pattern -- a service provisioning system that initializes and manages its own hosting infrastructure across the cloud-edge continuum.
 
 ## Links
 

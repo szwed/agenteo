@@ -19,6 +19,6 @@ Software delivery framework for microservice-based SaaS applications.
 
 Shared service deployments across stages within the same landscape reduce infrastructure costs.
 
-See also: [[Konfidence-Core-Concepts]], [[Lifecycle-Management]]
+See also: [Konfidence Core Concepts](Konfidence-Core-Concepts.md), [Lifecycle Management](Lifecycle-Management.md)
 
 Website: [konfidence.cloud](https://konfidence.cloud)

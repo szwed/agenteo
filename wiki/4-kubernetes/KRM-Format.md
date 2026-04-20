@@ -1,6 +1,6 @@
 # KRM Wire and At-Rest Format
 
-Kubernetes uses [[KRM]] format identically in transit and at rest (disk, version control, storage). The resource body contains sufficient information to construct API calls -- no additional envelope needed.
+Kubernetes uses [KRM](KRM.md) format identically in transit and at rest (disk, version control, storage). The resource body contains sufficient information to construct API calls -- no additional envelope needed.
 
 A GET returns the same body that can be stored, versioned, audited, used as backup, or promoted across environments (dev -> test -> staging -> production) for immutable infrastructure.
 

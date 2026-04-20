@@ -10,12 +10,12 @@ Two bundled service types:
 
 Service and management runtimes may share infrastructure but separation is best practice for independent scaling.
 
-See also: [[Managed-Service-Provider-Pattern]]
+See also: [Managed Service Provider Pattern](Managed-Service-Provider-Pattern.md)
 
 ## Uniform KRM API Layer
 
-Uniform API for ordering, managing, and orchestrating capabilities using the Kubernetes Resource Model. Leverages [[User-Facing-Control-Plane|kcp]] for logical isolation and scalability while maintaining Kubernetes API compatibility.
+Uniform API for ordering, managing, and orchestrating capabilities using the Kubernetes Resource Model. Leverages [kcp](User-Facing-Control-Plane.md) for logical isolation and scalability while maintaining Kubernetes API compatibility.
 
 Every participant should provide such an API layer; consumer-facing API layers MUST provide this interface.
 
-See also: [[Platform-Mesh]]
+See also: [Platform Mesh](Platform-Mesh.md)

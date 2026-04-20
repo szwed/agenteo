@@ -1,6 +1,6 @@
 # AI Agents Architecture
 
-Solution architecture evolution of [[AI-Agents-Overview]], from simple agent to enterprise multi-agent system.
+Solution architecture evolution of [AI Agents Overview](AI-Agents-Overview.md), from simple agent to enterprise multi-agent system.
 
 ## Architecture Stages
 
@@ -46,6 +46,6 @@ The A2A protocol handles transport. The agent graph layer (LangGraph/Strands) ha
 
 ## See Also
 
-- [[AI-Platform-Agents]] — available platform agents
-- [[AI-Agents-Security]] — OAuth, A2A security, policy enforcement
-- [[AI-Knowledge-Bases]] — RAG knowledge retrieval layer
+- [AI Platform Agents](AI-Platform-Agents.md) — available platform agents
+- [AI Agents Security](AI-Agents-Security.md) — OAuth, A2A security, policy enforcement
+- [AI Knowledge Bases](AI-Knowledge-Bases.md) — RAG knowledge retrieval layer

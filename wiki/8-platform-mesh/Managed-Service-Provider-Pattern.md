@@ -24,4 +24,4 @@ Operates on or near the service runtime(s) it manages. Monitors the service orch
 
 Inspired by the **sharded controller pattern** in Kubernetes.
 
-See also: [[Service-Concepts]], [[Platform-Mesh-Design-Decisions]]
+See also: [Service Concepts](Service-Concepts.md), [Platform Mesh Design Decisions](Platform-Mesh-Design-Decisions.md)

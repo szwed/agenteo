@@ -10,11 +10,11 @@ Defined via `apiVersion: apiextensions.k8s.io/v1`, `kind: CustomResourceDefiniti
 
 Alternative: extend the API server with additional APIs not part of core Kubernetes.
 
-Example: **Gardener** is implemented as an Extension API Server. Its main user-facing resource is `Shoot` (`apiVersion: core.gardener.cloud/v1beta1`), fully adhering to [[KRM]] framework.
+Example: **Gardener** is implemented as an Extension API Server. Its main user-facing resource is `Shoot` (`apiVersion: core.gardener.cloud/v1beta1`), fully adhering to [KRM](KRM.md) framework.
 
 ## Higher-Order CRDs: Crossplane XRDs
 
-[[Crossplane]] introduces Composite Resource Definitions (XRDs), which are CRDs that define other CRDs. An XRD creates a new platform-specific API endpoint (e.g. `mydatabases.example.org`) backed by an OpenAPI v3 schema. When applied, Crossplane auto-generates the underlying Kubernetes CRD -- platform teams define the abstraction, and developers consume it without knowing the implementation details. This is the extensibility model in action at a higher order of abstraction.
+[Crossplane](Crossplane.md) introduces Composite Resource Definitions (XRDs), which are CRDs that define other CRDs. An XRD creates a new platform-specific API endpoint (e.g. `mydatabases.example.org`) backed by an OpenAPI v3 schema. When applied, Crossplane auto-generates the underlying Kubernetes CRD -- platform teams define the abstraction, and developers consume it without knowing the implementation details. This is the extensibility model in action at a higher order of abstraction.
 
 ## Discovery
 

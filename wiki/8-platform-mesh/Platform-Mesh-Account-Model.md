@@ -8,7 +8,7 @@ Hierarchical model mirroring organizational structure (Organization -> Teams -> 
 
 ## Service Management Integration
 
-Automated relationship management between consumers and providers. Creates shadow accounts and tenant spaces automatically. Leverages KRM for declarative service consumption and the [[Managed-Service-Provider-Pattern]]. Marketplace-like experience for service discovery.
+Automated relationship management between consumers and providers. Creates shadow accounts and tenant spaces automatically. Leverages KRM for declarative service consumption and the [Managed Service Provider Pattern](Managed-Service-Provider-Pattern.md). Marketplace-like experience for service discovery.
 
 ## Identity Management
 
@@ -16,10 +16,10 @@ Consistent authentication across the platform. Integrates with existing identity
 
 ## Key Management
 
-Leverages [[Key-Management|OpenKCM]] for account-level data protection. HSM-protected root keys (L1), keychain hierarchy (L2-L4 via Krypton), key rotation policies, granular access controls.
+Leverages [OpenKCM](Key-Management.md) for account-level data protection. HSM-protected root keys (L1), keychain hierarchy (L2-L4 via Krypton), key rotation policies, granular access controls.
 
 ## Service Orchestration
 
 Choreography-based (not central orchestrator). Services manage functions autonomously; desired behavior emerges from collaboration. Dedicated orchestration contexts group related services. Supports both managed and unmanaged services.
 
-See also: [[User-Facing-Control-Plane]], [[Platform-Mesh]]
+See also: [User Facing Control Plane](User-Facing-Control-Plane.md), [Platform Mesh](Platform-Mesh.md)

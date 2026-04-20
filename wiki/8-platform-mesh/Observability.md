@@ -29,4 +29,4 @@ Work in progress with OpenTelemetry community:
 
 CNOE emphasizes OpenTelemetry data collectors as the standard telemetry pipeline, with Prometheus for metrics collection and Grafana for visualization and analysis. This aligns directly with Apeiro's OTel-first approach -- both frameworks treat OTel as the universal telemetry substrate while remaining sink-agnostic. CNOE's reference implementations pair these with Argo-based CI/CD observability, reinforcing the pattern of unified observability across platform operations.
 
-See also: [[Security]]
+See also: [Security](Security.md)

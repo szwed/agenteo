@@ -1,6 +1,6 @@
 # IDPBuilder Details
 
-Technical details for IDPBuilder -- installation, security, networking, OCI registry, Gitea integration, and customization. For the high-level overview and reference stack, see [[IDP-Reference-Implementation]].
+Technical details for IDPBuilder -- installation, security, networking, OCI registry, Gitea integration, and customization. For the high-level overview and reference stack, see [IDP Reference Implementation](IDP-Reference-Implementation.md).
 
 ## Installation
 
@@ -129,6 +129,6 @@ This replaces only the specified resource (e.g., `argocd-cm` ConfigMap) while ke
 
 ## See Also
 
-- [[IDP-Reference-Implementation]] -- Reference stack overview
-- [[IDPBuilder-Stacks]] -- Available community stacks
-- [[CNOE]] -- Framework overview
+- [IDP Reference Implementation](IDP-Reference-Implementation.md) -- Reference stack overview
+- [IDPBuilder Stacks](IDPBuilder-Stacks.md) -- Available community stacks
+- [CNOE](../CNOE.md) -- Framework overview

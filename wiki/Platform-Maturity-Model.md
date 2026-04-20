@@ -2,7 +2,7 @@
 
 Source: [CNCF TAG App Delivery — Platform Engineering Maturity Model](https://tag-app-delivery.cncf.io/whitepapers/platform-eng-maturity-model/)
 
-Companion to the [[CNCF-Platforms-White-Paper]]. That paper describes **why and what** to build; this model describes **how to plan and assess progress**.
+Companion to the [CNCF Platforms White Paper](CNCF-Platforms-White-Paper.md). That paper describes **why and what** to build; this model describes **how to plan and assess progress**.
 
 ## How to Use the Model
 
@@ -62,12 +62,12 @@ Companion to the [[CNCF-Platforms-White-Paper]]. That paper describes **why and 
 | Level | ApeiroRA capabilities at this stage |
 |---|---|
 | L1 Provisional | Manual scripts, wiki docs, ad hoc Kubernetes clusters |
-| L2 Operational | [[Managed-Kubernetes-as-a-Service]] (Gardener), basic [[CI-CD]], central [[Observability]] |
-| L3 Scalable | [[Platform-Mesh]] self-service APIs, [[Developer-Portal]], [[Service-Concepts]] catalog, [[KRM]] abstractions |
-| L4 Optimizing | Full [[Platform-Mesh]] with [[Managed-Service-Provider-Pattern]], [[Security-Compliance-Automation]], [[AI-Agents-Overview]] for autonomous operations |
+| L2 Operational | [Managed Kubernetes as a Service](3-cluster-management/Managed-Kubernetes-as-a-Service.md) (Gardener), basic [CI CD](4-kubernetes/CI-CD.md), central [Observability](8-platform-mesh/Observability.md) |
+| L3 Scalable | [Platform Mesh](8-platform-mesh/Platform-Mesh.md) self-service APIs, [Developer Portal](10-portals/Developer-Portal.md), [Service Concepts](8-platform-mesh/Service-Concepts.md) catalog, [KRM](4-kubernetes/KRM.md) abstractions |
+| L4 Optimizing | Full [Platform Mesh](8-platform-mesh/Platform-Mesh.md) with [Managed Service Provider Pattern](8-platform-mesh/Managed-Service-Provider-Pattern.md), [Security Compliance Automation](8-platform-mesh/Security-Compliance-Automation.md), [AI Agents Overview](9-ai-agents/AI-Agents-Overview.md) for autonomous operations |
 
 ## See Also
 
-- [[CNCF-Platforms-White-Paper]]
-- [[Platform-Mesh]]
-- [[BACK-Stack]]
+- [CNCF Platforms White Paper](CNCF-Platforms-White-Paper.md)
+- [Platform Mesh](8-platform-mesh/Platform-Mesh.md)
+- [BACK Stack](BACK-Stack.md)

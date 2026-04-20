@@ -51,5 +51,5 @@ IDPBuilder then: (1) creates a Gitea repository, (2) pushes the local manifests 
 
 ## See Also
 
-- [[IDP-Reference-Implementation]] -- Full reference stack deployment
-- [[CNOE]] -- Framework overview
+- [IDP Reference Implementation](IDP-Reference-Implementation.md) -- Full reference stack deployment
+- [CNOE](../CNOE.md) -- Framework overview

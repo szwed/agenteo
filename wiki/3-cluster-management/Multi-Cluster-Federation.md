@@ -30,11 +30,11 @@ A **clusterlet** bundles all controllers an agent needs. Clusterlets register pa
 
 Most advanced: central cluster reduced to a **pure data plane** (generic API server + persistence, no runtime). kcp implements this "clusterless" approach. Federation controllers run on a separate, admin-managed runtime cluster.
 
-Benefits: superior resiliency (data plane decoupled from runtime), independent backup/restore, dynamic infrastructure (clusters as cattle, on-demand provisioning via [[Managed-Kubernetes-as-a-Service]]).
+Benefits: superior resiliency (data plane decoupled from runtime), independent backup/restore, dynamic infrastructure (clusters as cattle, on-demand provisioning via [Managed Kubernetes as a Service](Managed-Kubernetes-as-a-Service.md)).
 
 ## Cluster API as a Building Block
 
-[[Cluster-API]] provides a foundational management-cluster-to-workload-clusters pattern that underpins multi-cluster architectures. A single CAPI management cluster declaratively provisions and manages the lifecycle of many workload clusters across infrastructure providers. While CAPI itself is not a federation system, it supplies the cluster provisioning layer that federation tools (Karmada, KubeVela, etc.) build upon.
+[Cluster API](Cluster-API.md) provides a foundational management-cluster-to-workload-clusters pattern that underpins multi-cluster architectures. A single CAPI management cluster declaratively provisions and manages the lifecycle of many workload clusters across infrastructure providers. While CAPI itself is not a federation system, it supplies the cluster provisioning layer that federation tools (Karmada, KubeVela, etc.) build upon.
 
 ## Additional Considerations
 

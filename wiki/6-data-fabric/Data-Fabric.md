@@ -14,4 +14,4 @@ Architectural approach for flexible, reusable data access across an organization
 
 Within Apeiro, Data Fabric focus is on **metadata**. Decentralized self-describing of application resources enables identification of correct business objects behind exposed resources, clarifies meaning, and determines which integration points link to the same underlying object.
 
-See also: [[Data-Fabric-Principles]], [[Data-Fabric-Components]], [[Data-Fabric-Landscape]], [[Data-Fabric-Perspectives]] — role-specific guidance
+See also: [Data Fabric Principles](Data-Fabric-Principles.md), [Data Fabric Components](Data-Fabric-Components.md), [Data Fabric Landscape](Data-Fabric-Landscape.md), [Data Fabric Perspectives](Data-Fabric-Perspectives.md) — role-specific guidance

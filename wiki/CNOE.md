@@ -4,7 +4,7 @@ _Pronounced "Kuh-noo"_
 
 CNOE is a framework that brings together enterprises operating at scale to navigate operational technology decisions collectively, de-risk tooling bets, coordinate contributions, and offer guidance on which CNCF technologies to use together for cloud efficiency.
 
-In the ApeiroRA context, CNOE provides the community-validated technology choices that inform the [[Platform-Mesh]] tooling layer and the broader [[Apeiro-Reference-Architecture]].
+In the ApeiroRA context, CNOE provides the community-validated technology choices that inform the [Platform Mesh](8-platform-mesh/Platform-Mesh.md) tooling layer and the broader [Apeiro Reference Architecture](Apeiro-Reference-Architecture.md).
 
 ## Problem Statement
 
@@ -21,7 +21,7 @@ Infrastructure and tooling fragmentation has five root causes:
 1. **Open source first** -- Prioritize OSS over proprietary technology in every vertical. Enables coordination and freedom to modify.
 2. **Community driven** -- Technology selection, commitment level, and contribution direction are driven by the community and its governing body.
 3. **Tools, not practices** -- CNOE suggests tools and configurations. What practices a company builds around them is out of scope.
-4. **Powered by Kubernetes** -- Kubernetes is the de-facto operating environment for CNOE tooling. However, workloads can orchestrate against any compute platform (ECS, Cloud Functions, VMs). See [[Control-Data-Work-Planes]].
+4. **Powered by Kubernetes** -- Kubernetes is the de-facto operating environment for CNOE tooling. However, workloads can orchestrate against any compute platform (ECS, Cloud Functions, VMs). See [Control Data Work Planes](4-kubernetes/Control-Data-Work-Planes.md).
 5. **Standardized infrastructure, customizable by developers** -- Platform requirements are enforced by security engineers and infra operators; usability is guaranteed by platform operators and app developers.
 6. **Built to be shared** -- All deliverables (reference architecture, deployment packages) are developed in the open, collaboratively, for the broader OSS community.
 
@@ -44,18 +44,18 @@ Infrastructure and tooling fragmentation has five root causes:
 
 ## Approach
 
-- **Pluggability and extensibility** -- Split DevOps into subcategories with logical boundaries. Any endorsed tool from one category integrates with endorsed tools from another (e.g., Tekton or Argo Workflows for CI combined with Flux or ArgoCD for CD). See [[CI-CD]].
-- **Kubernetes-powered** -- CNCF tools run on Kubernetes but can orchestrate against any target. See [[KRM]].
-- **Building patterns and tooling** -- Packaging specs, templating mechanisms, and deployer technologies (e.g., [[IDP-Reference-Implementation|IDPBuilder]]) enable bundling and sharing of recommended tool stacks.
+- **Pluggability and extensibility** -- Split DevOps into subcategories with logical boundaries. Any endorsed tool from one category integrates with endorsed tools from another (e.g., Tekton or Argo Workflows for CI combined with Flux or ArgoCD for CD). See [CI CD](4-kubernetes/CI-CD.md).
+- **Kubernetes-powered** -- CNCF tools run on Kubernetes but can orchestrate against any target. See [KRM](4-kubernetes/KRM.md).
+- **Building patterns and tooling** -- Packaging specs, templating mechanisms, and deployer technologies (e.g., [IDPBuilder](10-portals/IDP-Reference-Implementation.md)) enable bundling and sharing of recommended tool stacks.
 
 ## Key Pages
 
-- [[CNOE-Technology-Choices]] -- Capability-to-technology mapping
-- [[IDP-Reference-Implementation]] -- CNOE reference IDP (IDPBuilder)
-- [[CI-CD]] -- Continuous integration and delivery
-- [[Infrastructure-as-Code]] -- IaC approaches (Terraform, Crossplane)
-- [[Developer-Portal]] -- Software catalog and developer experience
-- [[GitOps-and-Repositories]] -- Code repos, config repos, GitOps pattern
-- [[Validation-and-Policy]] -- Admission control and policy
-- [[Service-Discovery]] -- Dynamic service lookup
-- [[Signing-and-Supply-Chain]] -- Supply chain security
+- [CNOE Technology Choices](CNOE-Technology-Choices.md) -- Capability-to-technology mapping
+- [IDP Reference Implementation](10-portals/IDP-Reference-Implementation.md) -- CNOE reference IDP (IDPBuilder)
+- [CI CD](4-kubernetes/CI-CD.md) -- Continuous integration and delivery
+- [Infrastructure as Code](4-kubernetes/Infrastructure-as-Code.md) -- IaC approaches (Terraform, Crossplane)
+- [Developer Portal](10-portals/Developer-Portal.md) -- Software catalog and developer experience
+- [GitOps and Repositories](4-kubernetes/GitOps-and-Repositories.md) -- Code repos, config repos, GitOps pattern
+- [Validation and Policy](4-kubernetes/Validation-and-Policy.md) -- Admission control and policy
+- [Service Discovery](4-kubernetes/Service-Discovery.md) -- Dynamic service lookup
+- [Signing and Supply Chain](4-kubernetes/Signing-and-Supply-Chain.md) -- Supply chain security

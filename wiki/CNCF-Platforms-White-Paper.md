@@ -72,12 +72,12 @@ Platform teams do not necessarily run infrastructure. They own the **experience 
 
 ## Mapping to ApeiroRA
 
-ApeiroRA's [[Platform-Mesh]] directly implements the CNCF platform vision:
+ApeiroRA's [Platform Mesh](8-platform-mesh/Platform-Mesh.md) directly implements the CNCF platform vision:
 
-- [[Service-Concepts]] and [[Managed-Service-Provider-Pattern]] provide the capability provider abstraction
-- [[User-Facing-Control-Plane]] (kcp) and [[Service-Provider-Control-Planes]] deliver the self-service API layer
-- [[Developer-Portal]] (Backstage) covers the web portal capability
-- [[Observability]] (OpenTelemetry) maps to the observability domain
-- [[Security]] with [[Validation-and-Policy]] and [[Security-Compliance-Automation]] address secure-by-default
+- [Service Concepts](8-platform-mesh/Service-Concepts.md) and [Managed Service Provider Pattern](8-platform-mesh/Managed-Service-Provider-Pattern.md) provide the capability provider abstraction
+- [User Facing Control Plane](8-platform-mesh/User-Facing-Control-Plane.md) (kcp) and [Service Provider Control Planes](8-platform-mesh/Service-Provider-Control-Planes.md) deliver the self-service API layer
+- [Developer Portal](10-portals/Developer-Portal.md) (Backstage) covers the web portal capability
+- [Observability](8-platform-mesh/Observability.md) (OpenTelemetry) maps to the observability domain
+- [Security](8-platform-mesh/Security.md) with [Validation and Policy](4-kubernetes/Validation-and-Policy.md) and [Security Compliance Automation](8-platform-mesh/Security-Compliance-Automation.md) address secure-by-default
 
-See also: [[Platform-Maturity-Model]] for assessing your platform engineering journey.
+See also: [Platform Maturity Model](Platform-Maturity-Model.md) for assessing your platform engineering journey.

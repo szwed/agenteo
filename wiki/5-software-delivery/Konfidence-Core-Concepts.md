@@ -26,4 +26,4 @@ Logical grouping of multiple stages and deployment targets. Provides holistic vi
 
 Stages promote across landscapes: DEV landscape -> TEST landscape -> PROD landscape (Internal -> Early -> Rest).
 
-See also: [[Konfidence]]
+See also: [Konfidence](Konfidence.md)

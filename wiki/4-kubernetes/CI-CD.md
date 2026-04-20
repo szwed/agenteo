@@ -1,16 +1,16 @@
 # CI/CD (Continuous Integration / Continuous Delivery)
 
-CI/CD in cloud-native environments has evolved beyond monolithic tools like Jenkins and Spinnaker. CNOE distinguishes CI and CD as separate capability categories with distinct tool choices, while ApeiroRA frames them within the [[Controller-Pattern]] and [[KRM]] reconciliation model.
+CI/CD in cloud-native environments has evolved beyond monolithic tools like Jenkins and Spinnaker. CNOE distinguishes CI and CD as separate capability categories with distinct tool choices, while ApeiroRA frames them within the [Controller Pattern](Controller-Pattern.md) and [KRM](KRM.md) reconciliation model.
 
 ## Continuous Delivery (CD)
 
 CD focuses on getting validated artifacts deployed to target environments. In Kubernetes-native platforms, CD is implemented through **reconciling controllers** that continuously sync desired state from Git to clusters.
 
 **Key tools:**
-- **ArgoCD** -- Declarative GitOps CD for Kubernetes. Monitors Git repositories and reconciles cluster state to match. Uses the [[Controller-Pattern]] (watch, diff, act).
+- **ArgoCD** -- Declarative GitOps CD for Kubernetes. Monitors Git repositories and reconciles cluster state to match. Uses the [Controller Pattern](Controller-Pattern.md) (watch, diff, act).
 - **FluxCD** -- Alternative GitOps toolkit. Also a reconciling controller, with a more composable architecture (source controller, kustomize controller, helm controller).
 
-Both operate as Kubernetes controllers -- they do not "push" deployments but continuously reconcile desired vs actual state. This is the same pattern that drives [[Digital-Twins]] and [[KRM-Control]].
+Both operate as Kubernetes controllers -- they do not "push" deployments but continuously reconcile desired vs actual state. This is the same pattern that drives [Digital Twins](Digital-Twins.md) and [KRM Control](KRM-Control.md).
 
 ## Continuous Integration (CI)
 
@@ -20,7 +20,7 @@ CI covers build, test, and validation workflows that run before artifacts reach 
 - **Argo Workflows** -- Kubernetes-native workflow engine. DAG and step-based pipelines defined as CRDs. Scalable for large workloads (CNOE has published scalability benchmarks).
 - **Tekton** -- Kubernetes-native CI/CD pipeline framework. Tasks and pipelines as CRDs. Strong separation of concerns between task definition and pipeline orchestration.
 
-Both are Kubernetes-native, meaning pipeline definitions are [[KRM-Format]] resources managed through the API server.
+Both are Kubernetes-native, meaning pipeline definitions are [KRM Format](KRM-Format.md) resources managed through the API server.
 
 ## CD vs CI: The Distinction
 
@@ -45,12 +45,12 @@ CNOE defines logical boundaries between CI and CD so organizations can mix tools
 
 > Assuming users choose between Tekton or Argo Workflows for CI and Flux or ArgoCD for CD, any combination should work within CNOE.
 
-This reduces fragmentation while providing options. The [[CNOE-Technology-Choices]] page maps these selections.
+This reduces fragmentation while providing options. The [CNOE Technology Choices](../CNOE-Technology-Choices.md) page maps these selections.
 
 ## See Also
 
-- [[Controller-Pattern]] -- Reconciliation model underlying GitOps CD
-- [[GitOps-and-Repositories]] -- Code and config repositories that feed CI/CD
-- [[Infrastructure-as-Code]] -- IaC resources also delivered through CD pipelines
-- [[IDP-Reference-Implementation]] -- CNOE reference stack includes ArgoCD and Argo Workflows
-- [[CNOE]] -- Framework overview
+- [Controller Pattern](Controller-Pattern.md) -- Reconciliation model underlying GitOps CD
+- [GitOps and Repositories](GitOps-and-Repositories.md) -- Code and config repositories that feed CI/CD
+- [Infrastructure as Code](Infrastructure-as-Code.md) -- IaC resources also delivered through CD pipelines
+- [IDP Reference Implementation](../10-portals/IDP-Reference-Implementation.md) -- CNOE reference stack includes ArgoCD and Argo Workflows
+- [CNOE](../CNOE.md) -- Framework overview

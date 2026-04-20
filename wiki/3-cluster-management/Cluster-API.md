@@ -1,6 +1,6 @@
 # Cluster API (CAPI)
 
-Kubernetes subproject (SIG Cluster Lifecycle) providing **declarative APIs for provisioning, upgrading, and operating multiple Kubernetes clusters**. An alternative to [[Managed-Kubernetes-as-a-Service|Gardener]] for cluster lifecycle management.
+Kubernetes subproject (SIG Cluster Lifecycle) providing **declarative APIs for provisioning, upgrading, and operating multiple Kubernetes clusters**. An alternative to [Gardener](Managed-Kubernetes-as-a-Service.md) for cluster lifecycle management.
 
 ## Architecture
 
@@ -49,21 +49,21 @@ CAPI supports the pivoting process via `clusterctl move` -- transferring CAPI ob
 4. `clusterctl move --to-kubeconfig=<target>` to migrate all CAPI resources
 5. Delete the bootstrap cluster
 
-Before moving, `clusterctl` sets `Cluster.Spec.Paused=true` to stop reconciliation on the source. Use `--namespace` to target a specific namespace and `--dry-run` to preview without changes. Status subresources are never restored -- controllers rebuild them from spec. See [[Data-and-Control-Plane-State]] for the general concept.
+Before moving, `clusterctl` sets `Cluster.Spec.Paused=true` to stop reconciliation on the source. Use `--namespace` to target a specific namespace and `--dry-run` to preview without changes. Status subresources are never restored -- controllers rebuild them from spec. See [Data and Control Plane State](../4-kubernetes/Data-and-Control-Plane-State.md) for the general concept.
 
 ## CAPI vs Gardener
 
 | Aspect | Cluster API | Gardener |
 |--------|-------------|----------|
 | Approach | Building blocks — assemble your own | Opinionated, batteries-included |
-| Control Plane | Varies by provider | [[Hosted-Control-Planes]] (Kubeception) |
+| Control Plane | Varies by provider | [Hosted Control Planes](Hosted-Control-Planes.md) (Kubeception) |
 | Multi-cloud | Via multiple infra providers | Built-in extension mechanism |
 | Fleet management | Manual or via GitOps | Centralized (Garden → Seed → Shoot) |
 | Auto-scaling | External (e.g., cluster-autoscaler) | Built-in (control plane + workers) |
 | Live migration | Not built-in | Built-in control plane migration |
 | Best for | Custom platforms, bottom-up assembly | Enterprise managed K8s-as-a-Service |
 
-Both use [[KRM]] and the [[Controller-Pattern]] for declarative cluster management.
+Both use [KRM](../4-kubernetes/KRM.md) and the [Controller Pattern](../4-kubernetes/Controller-Pattern.md) for declarative cluster management.
 
 ## Security Guidelines
 
@@ -81,4 +81,4 @@ Based on the [CAPI Security Self-Assessment](https://github.com/kubernetes/sig-s
 - [GitHub](https://github.com/kubernetes-sigs/cluster-api)
 - [Provider List](https://cluster-api.sigs.k8s.io/reference/providers)
 
-See also: [[Managed-Kubernetes-as-a-Service]], [[Multi-Cluster-Federation]], [[Hosted-Control-Planes]], [[Data-and-Control-Plane-State]]
+See also: [Managed Kubernetes as a Service](Managed-Kubernetes-as-a-Service.md), [Multi Cluster Federation](Multi-Cluster-Federation.md), [Hosted Control Planes](Hosted-Control-Planes.md), [Data and Control Plane State](../4-kubernetes/Data-and-Control-Plane-State.md)

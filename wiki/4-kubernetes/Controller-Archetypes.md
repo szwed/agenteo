@@ -4,7 +4,7 @@ Four archetypes for how controllers interact with resources in the Kubernetes AP
 
 ## Actuators
 
-Map real-world capabilities into virtual world via [[Digital-Twins|digital twins]]. Examples: **kubelet** (registers node, watches assigned Pods), [[Crossplane]], ExternalDNS. Crossplane Providers are the classic actuator pattern: each Provider controller watches its managed resources (KRM CRDs) and reconciles them to real cloud resources via cloud APIs, mapping external state into the Kubernetes digital twin model.
+Map real-world capabilities into virtual world via [digital twins](Digital-Twins.md). Examples: **kubelet** (registers node, watches assigned Pods), [Crossplane](Crossplane.md), ExternalDNS. Crossplane Providers are the classic actuator pattern: each Provider controller watches its managed resources (KRM CRDs) and reconciles them to real cloud resources via cloud APIs, mapping external state into the Kubernetes digital twin model.
 
 ## Attribute Controllers
 

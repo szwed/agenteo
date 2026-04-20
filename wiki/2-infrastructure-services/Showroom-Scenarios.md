@@ -28,11 +28,11 @@ Adds: Data Fabric capabilities on top of other scenarios.
 
 ## Infrastructure and Baremetal
 
-Full cloud stack from hardware to services. Requires [[Hardware-Recommendations|hardware investment]] and BOS layer setup.
+Full cloud stack from hardware to services. Requires [hardware investment](../1-bare-metal/Hardware-Recommendations.md) and BOS layer setup.
 
 ### Baremetal Automation
 
-Set up racks per [[Hardware-Control-Plane|hardware specs]]. Low-level hardware coupling may require code adjustments for your specific hardware.
+Set up racks per [hardware specs](../1-bare-metal/Hardware-Control-Plane.md). Low-level hardware coupling may require code adjustments for your specific hardware.
 
 ### Infrastructure as a Service
 

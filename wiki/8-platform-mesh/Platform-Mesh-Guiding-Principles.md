@@ -12,4 +12,4 @@ All components usable without the complete framework. Service providers should b
 
 The architecture avoids bundling functionality that could be separate, maximizing flexibility in composition. Marketplaces are a central element but should not be required for other parts to function.
 
-See also: [[Platform-Mesh]]
+See also: [Platform Mesh](Platform-Mesh.md)

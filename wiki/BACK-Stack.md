@@ -8,10 +8,10 @@ The BACK Stack is a reference architecture for building an Internal Developer Pl
 
 | Letter | Project | Role | ApeiroRA equivalent |
 |---|---|---|---|
-| **B** | Backstage | Developer portal — service catalog, golden paths, docs | [[Developer-Portal]] |
-| **A** | Argo CD | GitOps continuous delivery | [[CI-CD]] |
-| **C** | Crossplane | Infrastructure-as-Code via Kubernetes API (compositions, XRDs) | [[Infrastructure-as-Code]] |
-| **K** | Kyverno | Policy engine — validation, mutation, generation of resources | [[Validation-and-Policy]] |
+| **B** | Backstage | Developer portal — service catalog, golden paths, docs | [Developer Portal](10-portals/Developer-Portal.md) |
+| **A** | Argo CD | GitOps continuous delivery | [CI CD](4-kubernetes/CI-CD.md) |
+| **C** | Crossplane | Infrastructure-as-Code via Kubernetes API (compositions, XRDs) | [Infrastructure as Code](4-kubernetes/Infrastructure-as-Code.md) |
+| **K** | Kyverno | Policy engine — validation, mutation, generation of resources | [Validation and Policy](4-kubernetes/Validation-and-Policy.md) |
 
 Together these four components provide:
 
@@ -32,16 +32,16 @@ Together these four components provide:
 
 ApeiroRA covers similar ground with a broader scope:
 
-- [[Platform-Mesh]] provides the overarching platform architecture (BACK Stack addresses a subset)
-- [[OpenMFP]] offers an alternative/complementary micro-frontend portal approach alongside Backstage
-- CNOE's [[IDP-Reference-Implementation]] is another CNCF-aligned IDP reference that overlaps with BACK Stack (both use Backstage + Argo CD)
-- ApeiroRA adds layers BACK Stack does not address: [[Managed-Kubernetes-as-a-Service]] (Gardener), [[Data-Fabric]], [[AI-Agents-Overview]]
+- [Platform Mesh](8-platform-mesh/Platform-Mesh.md) provides the overarching platform architecture (BACK Stack addresses a subset)
+- [OpenMFP](5-software-delivery/OpenMFP.md) offers an alternative/complementary micro-frontend portal approach alongside Backstage
+- CNOE's [IDP Reference Implementation](10-portals/IDP-Reference-Implementation.md) is another CNCF-aligned IDP reference that overlaps with BACK Stack (both use Backstage + Argo CD)
+- ApeiroRA adds layers BACK Stack does not address: [Managed Kubernetes as a Service](3-cluster-management/Managed-Kubernetes-as-a-Service.md) (Gardener), [Data Fabric](6-data-fabric/Data-Fabric.md), [AI Agents Overview](9-ai-agents/AI-Agents-Overview.md)
 
 The BACK Stack is a good **starting point** for teams building an IDP with minimal components. ApeiroRA extends this into a full enterprise reference architecture.
 
 ## See Also
 
-- [[CNCF-Platforms-White-Paper]]
-- [[Platform-Maturity-Model]]
-- [[CNOE]]
-- [[IDP-Reference-Implementation]]
+- [CNCF Platforms White Paper](CNCF-Platforms-White-Paper.md)
+- [Platform Maturity Model](Platform-Maturity-Model.md)
+- [CNOE](CNOE.md)
+- [IDP Reference Implementation](10-portals/IDP-Reference-Implementation.md)

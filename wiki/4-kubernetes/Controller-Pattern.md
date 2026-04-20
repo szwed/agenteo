@@ -1,6 +1,6 @@
 # Controller Pattern
 
-[[KRM]] is tightly coupled with the controller pattern: observed state is continuously reconciled with desired state; processed state is asynchronously reported back.
+[KRM](KRM.md) is tightly coupled with the controller pattern: observed state is continuously reconciled with desired state; processed state is asynchronously reported back.
 
 ## PID Controller Analogy
 

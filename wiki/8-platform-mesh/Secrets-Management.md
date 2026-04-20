@@ -24,4 +24,4 @@ Central component: Certification Authority (CA) issuing certificates for authent
 
 CNOE uses **External Secrets Operator** (ESO) as the Kubernetes-native bridge to secret repositories (Vault, AWS Secrets Manager, cloud KMS). This shifts secret lifecycle responsibility to the platform -- secrets are synced from external stores into K8s secrets automatically. The lifecycle covers promotion across environments, distribution to clusters, rotation, and revocation. CNOE's secret repos integrate with HSM-backed stores and PKI (e.g. cert-manager for TLS certificates synced via ESO). This complements Apeiro's OpenBao approach: OpenBao provides the identity-based secrets engine and HSM/PKI backend, while ESO handles the Kubernetes integration layer that CNOE standardizes.
 
-See also: [[Security]], [[Key-Management]]
+See also: [Security](Security.md), [Key Management](Key-Management.md)

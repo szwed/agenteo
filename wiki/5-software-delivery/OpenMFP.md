@@ -1,6 +1,6 @@
 # OpenMFP
 
-Open Micro Frontend Platform. Extends [[Platform-Mesh]] principles to frontend components, creating a unified interface that evolves with infrastructure.
+Open Micro Frontend Platform. Extends [Platform Mesh](../8-platform-mesh/Platform-Mesh.md) principles to frontend components, creating a unified interface that evolves with infrastructure.
 
 ## How It Works
 
@@ -20,4 +20,4 @@ Open Micro Frontend Platform. Extends [[Platform-Mesh]] principles to frontend c
 - Preserves loose coupling while delivering cohesive experiences
 - Supports evolving UI frameworks without platform rewrites
 
-See also: [[Micro-Frontends]]
+See also: [Micro Frontends](Micro-Frontends.md)

@@ -25,13 +25,13 @@ The platform provides a secure, scalable, persona-driven multi-agent system with
 
 | Page | Description |
 |------|-------------|
-| [[AI-Agents-Architecture]] | Solution architecture evolution (6 stages) |
-| [[AI-Platform-Agents]] | Available platform agents and development guide |
-| [[AI-Knowledge-Bases]] | RAG-powered knowledge platform |
-| [[AI-Prompt-Library]] | Curated prompt collection for multi-agent orchestration |
-| [[AI-Agents-Security]] | Security model (OAuth, A2A, policy enforcement) |
-| [[AI-Use-Cases]] | Platform engineer use cases, personas, and skills |
-| [[AI-Agents-UI]] | A2A Message Visualizer (Next.js) |
+| [AI Agents Architecture](AI-Agents-Architecture.md) | Solution architecture evolution (6 stages) |
+| [AI Platform Agents](AI-Platform-Agents.md) | Available platform agents and development guide |
+| [AI Knowledge Bases](AI-Knowledge-Bases.md) | RAG-powered knowledge platform |
+| [AI Prompt Library](AI-Prompt-Library.md) | Curated prompt collection for multi-agent orchestration |
+| [AI Agents Security](AI-Agents-Security.md) | Security model (OAuth, A2A, policy enforcement) |
+| [AI Use Cases](AI-Use-Cases.md) | Platform engineer use cases, personas, and skills |
+| [AI Agents UI](AI-Agents-UI.md) | A2A Message Visualizer (Next.js) |
 
 ## Links
 

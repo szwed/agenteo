@@ -76,9 +76,9 @@ The kubernetes-graphql-gateway provides a GraphQL API for accessing Kubernetes r
 ## Relation to ApeiroRA
 
 OpenMFP is part of the broader ApeiroRA ecosystem:
-- [[Micro-Frontends]] -- micro frontend architecture in ApeiroRA software delivery
-- [[OpenMFP]] -- OpenMFP in the software delivery layer
-- [[Platform-Mesh]] -- developer portal sits in the platform mesh layer
+- [Micro Frontends](../5-software-delivery/Micro-Frontends.md) -- micro frontend architecture in ApeiroRA software delivery
+- [OpenMFP](../5-software-delivery/OpenMFP.md) -- OpenMFP in the software delivery layer
+- [Platform Mesh](../8-platform-mesh/Platform-Mesh.md) -- developer portal sits in the platform mesh layer
 
 Some components are being migrated to [Platform Mesh](https://platform-mesh.io/). OpenMFP continues to focus on being a micro frontend platform for UI capability and integration.
 
@@ -92,11 +92,11 @@ Some components are being migrated to [Platform Mesh](https://platform-mesh.io/)
 | Catalog | Not primary focus | Core feature |
 | Governance | NeoNephos Foundation (Linux Foundation) | CNCF Graduated |
 
-See [[Backstage]] for full Backstage documentation.
+See [Backstage](Backstage.md) for full Backstage documentation.
 
 ## Links
 
 - https://openmfp.org
 - https://github.com/openmfp
-- [[Portals-Overview]] -- comparison of portal approaches
-- [[Developer-Portal]] -- developer portal as an IDP capability
+- [Portals Overview](Portals-Overview.md) -- comparison of portal approaches
+- [Developer Portal](Developer-Portal.md) -- developer portal as an IDP capability

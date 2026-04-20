@@ -1,6 +1,6 @@
 # Signing and Supply Chain Security
 
-Cryptographic signing ensures the integrity and provenance of software artifacts throughout the delivery pipeline. CNOE identifies signing as a core capability for building trust in the software supply chain. ApeiroRA addresses this through [[Software-Bill-of-Delivery]] (OCM) and [[Security-Compliance-Automation]].
+Cryptographic signing ensures the integrity and provenance of software artifacts throughout the delivery pipeline. CNOE identifies signing as a core capability for building trust in the software supply chain. ApeiroRA addresses this through [Software Bill of Delivery](../5-software-delivery/Software-Bill-of-Delivery.md) (OCM) and [Security Compliance Automation](../8-platform-mesh/Security-Compliance-Automation.md).
 
 ## Why Signing Matters
 
@@ -45,12 +45,12 @@ A complete supply chain security posture combines:
 2. **Build** -- Hermetic builds, build provenance attestation (SLSA framework)
 3. **Package** -- Signed container images and artifacts (Sigstore/cosign)
 4. **Distribute** -- Signed SBOMs, vulnerability attestations
-5. **Deploy** -- Admission control verifies signatures before allowing deployment ([[Validation-and-Policy]])
+5. **Deploy** -- Admission control verifies signatures before allowing deployment ([Validation and Policy](Validation-and-Policy.md))
 6. **Runtime** -- Continuous monitoring for known vulnerabilities
 
 ## Integration with Kubernetes Admission
 
-Signing connects directly to [[Validation-and-Policy]]:
+Signing connects directly to [Validation and Policy](Validation-and-Policy.md):
 - Kyverno can verify cosign signatures and attestations as part of admission control
 - OPA Gatekeeper can enforce image signing policies
 - Only images with valid signatures from trusted builders are admitted to the cluster
@@ -59,9 +59,9 @@ This is **binary authorization** -- a deploy-time gate that prevents unsigned or
 
 ## Relation to ApeiroRA
 
-- **[[Software-Bill-of-Delivery]]** -- OCM (Open Component Model) provides a framework for describing, signing, and transporting software artifacts with full provenance metadata.
-- **[[Security-Compliance-Automation]]** -- Automated compliance checks integrate with signing to produce attestations that satisfy regulatory requirements.
-- **[[Key-Management]]** -- Signing keys and certificates are managed through the key management infrastructure.
+- **[Software Bill of Delivery](../5-software-delivery/Software-Bill-of-Delivery.md)** -- OCM (Open Component Model) provides a framework for describing, signing, and transporting software artifacts with full provenance metadata.
+- **[Security Compliance Automation](../8-platform-mesh/Security-Compliance-Automation.md)** -- Automated compliance checks integrate with signing to produce attestations that satisfy regulatory requirements.
+- **[Key Management](../8-platform-mesh/Key-Management.md)** -- Signing keys and certificates are managed through the key management infrastructure.
 
 ## CNOE Perspective
 
@@ -69,9 +69,9 @@ CNOE endorses signing as essential for enterprise supply chains but does not man
 
 ## See Also
 
-- [[Software-Bill-of-Delivery]] -- OCM for artifact provenance
-- [[Security-Compliance-Automation]] -- Compliance attestations
-- [[Validation-and-Policy]] -- Admission control enforcing signatures
-- [[Key-Management]] -- Key infrastructure
-- [[CI-CD]] -- Signing happens in CI pipelines
-- [[CNOE]] -- Framework overview
+- [Software Bill of Delivery](../5-software-delivery/Software-Bill-of-Delivery.md) -- OCM for artifact provenance
+- [Security Compliance Automation](../8-platform-mesh/Security-Compliance-Automation.md) -- Compliance attestations
+- [Validation and Policy](Validation-and-Policy.md) -- Admission control enforcing signatures
+- [Key Management](../8-platform-mesh/Key-Management.md) -- Key infrastructure
+- [CI CD](CI-CD.md) -- Signing happens in CI pipelines
+- [CNOE](../CNOE.md) -- Framework overview

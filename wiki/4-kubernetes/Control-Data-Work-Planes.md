@@ -6,7 +6,7 @@ The brain: orchestrates and manages the target environment. Handles provisioning
 
 ## Data Plane
 
-The persistency layer hosting the **shared repository** for all [[Digital-Twins|digital twin]] resources. Not to be confused with the networking data/forwarding plane.
+The persistency layer hosting the **shared repository** for all [digital twin](Digital-Twins.md) resources. Not to be confused with the networking data/forwarding plane.
 
 ## Work Plane
 
@@ -16,10 +16,10 @@ Think of work plane as factory floor worktable; management plane as the office i
 
 ## Recursive Design
 
-Planes materialize as microservice components on runtimes. Suitable building blocks enable recursive patterns -- e.g., [[Hosted-Control-Planes]] or [[Multi-Cloud-Service-Provider]].
+Planes materialize as microservice components on runtimes. Suitable building blocks enable recursive patterns -- e.g., [Hosted Control Planes](../3-cluster-management/Hosted-Control-Planes.md) or [Multi Cloud Service Provider](../3-cluster-management/Multi-Cloud-Service-Provider.md).
 
 ## CNOE Perspective
 
 CNOE treats the **compute platform** as a deployment target with SOA-like discoverability -- services are registered and discoverable regardless of where they run. Kubernetes serves dual roles: as the compute substrate for platform capabilities (control plane tooling, CD, observability) and as one of several deployment targets. CNOE explicitly supports orchestration beyond K8s, including AWS Lambda, VMs, ECS, and static content hosting. This "powered by Kubernetes, but not limited to Kubernetes" tenet aligns with Apeiro's recursive plane model, where work planes can be specialized or generic compute.
 
-See also: [[Kubernetes-Implementation-Design]], [[Controller-Archetypes]], [[Multi-Plane-Controller]]
+See also: [Kubernetes Implementation Design](Kubernetes-Implementation-Design.md), [Controller Archetypes](Controller-Archetypes.md), [Multi Plane Controller](Multi-Plane-Controller.md)

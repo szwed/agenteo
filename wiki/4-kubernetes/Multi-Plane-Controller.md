@@ -1,6 +1,6 @@
 # Multi-Plane Controller
 
-Controllers can be multi-control-plane aware -- executed anywhere suitable and connected to multiple planes. Enables isolation boundaries for cloud services and [[Multi-Cluster-Federation]] design.
+Controllers can be multi-control-plane aware -- executed anywhere suitable and connected to multiple planes. Enables isolation boundaries for cloud services and [Multi Cluster Federation](../3-cluster-management/Multi-Cluster-Federation.md) design.
 
 ## Architecture Components
 
@@ -21,5 +21,5 @@ Controller interacts with multiple clusters for create/update operations (distri
 - **Scalability** -- leverage multicluster-runtime for dynamic multi-plane handling
 - **Isolation** -- clear separation between data plane, Runtime Cluster, and targets
 - **Dynamic discovery** -- MultiClusterManager for automatic cluster detection
-- **Consistency** -- level-based reconciliation, well-designed [[KRM]] extensions, proper conditions/states
+- **Consistency** -- level-based reconciliation, well-designed [KRM](KRM.md) extensions, proper conditions/states
 - **Error handling** -- exponential backoff with random delays to avoid thundering herd

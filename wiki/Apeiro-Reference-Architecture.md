@@ -8,18 +8,18 @@ Developers acquire services through the Platform Mesh. Service suppliers use it 
 
 ## Recommended Learning Path
 
-1. [[Digital-Twins]]
-2. [[Control-Data-Work-Planes]]
-3. [[Multi-Cluster-Federation]]
-4. [[Managed-Service-Provider-Pattern]]
-5. [[Platform-Mesh]]
-6. [[Micro-Frontends]]
-7. [[Lifecycle-Management]]
-8. [[Security]]
-9. [[Observability]]
+1. [Digital Twins](4-kubernetes/Digital-Twins.md)
+2. [Control Data Work Planes](4-kubernetes/Control-Data-Work-Planes.md)
+3. [Multi Cluster Federation](3-cluster-management/Multi-Cluster-Federation.md)
+4. [Managed Service Provider Pattern](8-platform-mesh/Managed-Service-Provider-Pattern.md)
+5. [Platform Mesh](8-platform-mesh/Platform-Mesh.md)
+6. [Micro Frontends](5-software-delivery/Micro-Frontends.md)
+7. [Lifecycle Management](5-software-delivery/Lifecycle-Management.md)
+8. [Security](8-platform-mesh/Security.md)
+9. [Observability](8-platform-mesh/Observability.md)
 
 ## Key Links
 
-- [[Architecture-Overview]]
-- [[Getting-Started]]
-- [[Showroom-Scenarios]]
+- [Architecture Overview](Architecture-Overview.md)
+- [Getting Started](Getting-Started.md)
+- [Showroom Scenarios](2-infrastructure-services/Showroom-Scenarios.md)

@@ -1,6 +1,6 @@
 # Kubernetes Resource Model
 
-Kubernetes uses an opinionated [[Digital-Twins|Digital Twin]] model. KRM defines a declarative approach: describe "desired state" of resources, software actuators (controllers/operators) reconcile with actual state.
+Kubernetes uses an opinionated [Digital Twin](Digital-Twins.md) model. KRM defines a declarative approach: describe "desired state" of resources, software actuators (controllers/operators) reconcile with actual state.
 
 ## Key Design Principles
 
@@ -22,4 +22,4 @@ Kubernetes uses an opinionated [[Digital-Twins|Digital Twin]] model. KRM defines
 - Eventual consistency challenges inherent to distributed systems
 - Optimistic concurrency control using shared repository state
 
-See also: [[KRM-Bi-Directional]], [[KRM-Control]], [[KRM-Format]], [[KRM-Kubernetes]]
+See also: [KRM Bi Directional](KRM-Bi-Directional.md), [KRM Control](KRM-Control.md), [KRM Format](KRM-Format.md), [KRM Kubernetes](KRM-Kubernetes.md)

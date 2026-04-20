@@ -16,7 +16,7 @@ KRM description of desired state of a capability. Consumer creates/modifies/dele
 
 ## Service Provider
 
-Entity that offers services, monitors resources, manages capabilities. Operates a controller watching for resource changes. Responsible for digital twin synchronization. Recommended: [[Managed-Service-Provider-Pattern]].
+Entity that offers services, monitors resources, manages capabilities. Operates a controller watching for resource changes. Responsible for digital twin synchronization. Recommended: [Managed Service Provider Pattern](Managed-Service-Provider-Pattern.md).
 
 ## Managed vs Unmanaged
 
@@ -37,4 +37,4 @@ Allows providers to register services for consumers to discover. Connects to ser
 | DB Schema | Database |
 | SaaS | PaaS, Database |
 
-See also: [[Platform-Mesh]]
+See also: [Platform Mesh](Platform-Mesh.md)

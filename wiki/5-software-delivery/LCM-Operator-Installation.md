@@ -13,4 +13,4 @@ In Kubernetes: operator = custom controller, configuration = custom resource, re
 
 These principles allow the controller implementation behind a versioned API contract to be exchanged without breaking changes.
 
-See also: [[Lifecycle-Management]]
+See also: [Lifecycle Management](Lifecycle-Management.md)

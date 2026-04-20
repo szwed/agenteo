@@ -1,12 +1,12 @@
 # Kubernetes Implementation Design
 
-Kubernetes is composed of microservices forming three planes. Key distinction: unlike typical microservices with own state/API, Kubernetes defines a common API framework and manages state for all components in the [[Control-Data-Work-Planes|data plane]].
+Kubernetes is composed of microservices forming three planes. Key distinction: unlike typical microservices with own state/API, Kubernetes defines a common API framework and manages state for all components in the [data plane](Control-Data-Work-Planes.md).
 
 ## Data Plane
 
 - **etcd** (or SQLite/RDBMS in K3s) for persistence
 - **API server** -- generic, no use-case-specific opinion (cf. kcp generic control plane)
-- Provides controlled access to shared repository of [[Digital-Twins|digital twin]] resources
+- Provides controlled access to shared repository of [digital twin](Digital-Twins.md) resources
 
 ## Control Plane
 

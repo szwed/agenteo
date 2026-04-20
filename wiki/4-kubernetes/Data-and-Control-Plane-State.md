@@ -24,7 +24,7 @@ Tools:
 
 ### How `clusterctl move` Works
 
-The `clusterctl move --to-kubeconfig=<target>` command migrates all [[Cluster-API]] objects from a source management cluster to a target. Key behaviors:
+The `clusterctl move --to-kubeconfig=<target>` command migrates all [Cluster API](../3-cluster-management/Cluster-API.md) objects from a source management cluster to a target. Key behaviors:
 
 - **Namespace targeting** -- use `--namespace` to move only objects from a specific namespace (defaults to current namespace)
 - **Pause/resume** -- before moving, sets `Cluster.Spec.Paused=true` on the source to halt reconciliation; waits for any `clusterctl.cluster.x-k8s.io/block-move` annotations to clear; the target cluster resumes reconciliation automatically after move completes

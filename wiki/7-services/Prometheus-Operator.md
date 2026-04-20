@@ -4,7 +4,7 @@ The **Prometheus Operator** (and the **kube-prometheus-stack** Helm chart) provi
 
 ## Overview
 
-Defines monitoring infrastructure declaratively via CRDs. Part of the [[Observability]] stack. The operator watches for changes to these custom resources and reconciles the desired monitoring configuration.
+Defines monitoring infrastructure declaratively via CRDs. Part of the [Observability](../8-platform-mesh/Observability.md) stack. The operator watches for changes to these custom resources and reconciles the desired monitoring configuration.
 
 ## CRDs
 

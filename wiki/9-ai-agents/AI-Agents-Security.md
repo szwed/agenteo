@@ -1,6 +1,6 @@
 # AI Agents Security
 
-Security model for [[AI-Agents-Overview]] multi-agent system.
+Security model for [AI Agents Overview](AI-Agents-Overview.md) multi-agent system.
 
 ## Authentication
 
@@ -30,10 +30,10 @@ The A2A protocol secures communication between supervisor and sub-agents:
 - **Agent identity**: gateway-level identity (SLIM/Agentgateway) with OAuth tokens
 - **Distributed tracing**: end-to-end visibility across agent interactions
 - **Policy enforcement**: centralized policy engine for tool access control
-- See [[AI-Agents-Architecture]] stages 5-6 for enterprise patterns
+- See [AI Agents Architecture](AI-Agents-Architecture.md) stages 5-6 for enterprise patterns
 
 ## See Also
 
-- [[Platform-Mesh-Security]] — broader platform AuthN/AuthZ context
-- [[Security]] — compliance automation, key management, secrets management
-- [[AI-Agents-Architecture]] — how security fits into the architecture evolution
+- [Platform Mesh Security](../8-platform-mesh/Platform-Mesh-Security.md) — broader platform AuthN/AuthZ context
+- [Security](../8-platform-mesh/Security.md) — compliance automation, key management, secrets management
+- [AI Agents Architecture](AI-Agents-Architecture.md) — how security fits into the architecture evolution

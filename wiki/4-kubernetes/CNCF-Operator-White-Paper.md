@@ -17,7 +17,7 @@ There is no technical difference. The distinction is conceptual:
 
 A controller that only creates a pod on CR creation is a simple controller. A controller that knows how to upgrade, backup, and auto-remediate is an operator.
 
-See [[Controller-Pattern]] and [[Controller-Archetypes]] for ApeiroRA's treatment of the controller concept.
+See [Controller Pattern](Controller-Pattern.md) and [Controller Archetypes](Controller-Archetypes.md) for ApeiroRA's treatment of the controller concept.
 
 ## Operator Design Pattern
 
@@ -83,8 +83,8 @@ Three categories of value:
 
 ApeiroRA relies extensively on the operator pattern:
 
-- [[Controller-Pattern]] covers the reconciliation loop fundamentals
-- [[Controller-Archetypes]] defines ApeiroRA's taxonomy of controller types (similar to operator capability levels)
-- [[Lifecycle-Management]] and [[LCM-Operator-Installation]] use operators for software delivery
-- [[Digital-Twins-Extensibility]] describes extending Kubernetes via CRDs — the foundation operators build on
-- [[Multi-Plane-Controller]] extends the pattern across control/data/work planes
+- [Controller Pattern](Controller-Pattern.md) covers the reconciliation loop fundamentals
+- [Controller Archetypes](Controller-Archetypes.md) defines ApeiroRA's taxonomy of controller types (similar to operator capability levels)
+- [Lifecycle Management](../5-software-delivery/Lifecycle-Management.md) and [LCM Operator Installation](../5-software-delivery/LCM-Operator-Installation.md) use operators for software delivery
+- [Digital Twins Extensibility](Digital-Twins-Extensibility.md) describes extending Kubernetes via CRDs — the foundation operators build on
+- [Multi Plane Controller](Multi-Plane-Controller.md) extends the pattern across control/data/work planes

@@ -1,6 +1,6 @@
 # KRM in Kubernetes
 
-`kubectl api-resources` lists all [[Digital-Twins|digital twin]] types that Kubernetes supports as container orchestrator.
+`kubectl api-resources` lists all [digital twin](Digital-Twins.md) types that Kubernetes supports as container orchestrator.
 
 ## Resource Attributes
 
@@ -13,4 +13,4 @@ Each resource type exposes:
 
 ## Skills Portability
 
-Familiarity with Kubernetes allows developers and administrators to apply and convert skills toward other capabilities modeled with [[KRM]].
+Familiarity with Kubernetes allows developers and administrators to apply and convert skills toward other capabilities modeled with [KRM](KRM.md).

@@ -4,10 +4,10 @@ Apeiro integrates security from the start using open-source solutions.
 
 ## Sub-Topics
 
-- [[Security-Compliance-Automation]] - ISMS automation with SCF and OCM
-- [[Key-Management]] - OpenKCM for encryption key hierarchy and HSM integration
-- [[Secrets-Management]] - OpenBao for secrets and PKI
-- [[Platform-Mesh-Security]] - AuthN/AuthZ architecture for the Platform Mesh
+- [Security Compliance Automation](Security-Compliance-Automation.md) - ISMS automation with SCF and OCM
+- [Key Management](Key-Management.md) - OpenKCM for encryption key hierarchy and HSM integration
+- [Secrets Management](Secrets-Management.md) - OpenBao for secrets and PKI
+- [Platform Mesh Security](Platform-Mesh-Security.md) - AuthN/AuthZ architecture for the Platform Mesh
 
 ## CNOE Perspective
 

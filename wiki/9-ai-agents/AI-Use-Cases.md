@@ -1,6 +1,6 @@
 # AI Use Cases
 
-Platform engineering use cases and personas for [[AI-Agents-Overview]].
+Platform engineering use cases and personas for [AI Agents Overview](AI-Agents-Overview.md).
 
 ## Platform Engineer Persona
 
@@ -26,7 +26,7 @@ Platform engineering use cases and personas for [[AI-Agents-Overview]].
 
 ## Pre-Built Skills
 
-Skills are pre-built prompt templates available in the [[AI-Agents-UI]] use cases gallery:
+Skills are pre-built prompt templates available in the [AI Agents UI](AI-Agents-UI.md) use cases gallery:
 
 | Skill | Description |
 |-------|-------------|
@@ -44,5 +44,5 @@ Skills are pre-built prompt templates available in the [[AI-Agents-UI]] use case
 
 ## See Also
 
-- [[AI-Prompt-Library]] — prompt configurations that drive these use cases
-- [[AI-Platform-Agents]] — agents referenced by each persona
+- [AI Prompt Library](AI-Prompt-Library.md) — prompt configurations that drive these use cases
+- [AI Platform Agents](AI-Platform-Agents.md) — agents referenced by each persona

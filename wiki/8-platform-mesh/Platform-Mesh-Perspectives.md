@@ -21,4 +21,4 @@ Managed services use the full provider lifecycle; unmanaged services are deploye
 1. **Set up service orchestration environment** - Apeiro provides toolbox, not turnkey; requires integration with IdP, contracts/CRM, billing
 2. **Maintain marketplaces** - register service providers, align with commercial model, ongoing maintenance
 
-See also: [[Platform-Mesh]]
+See also: [Platform Mesh](Platform-Mesh.md)

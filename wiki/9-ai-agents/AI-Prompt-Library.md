@@ -1,6 +1,6 @@
 # AI Prompt Library
 
-Curated prompt collection for [[AI-Agents-Overview]] multi-agent orchestration. Prompts are meta-level (coordination, decision-making, troubleshooting) and tested for real-world platform engineering workflows.
+Curated prompt collection for [AI Agents Overview](AI-Agents-Overview.md) multi-agent orchestration. Prompts are meta-level (coordination, decision-making, troubleshooting) and tested for real-world platform engineering workflows.
 
 ## Available Prompts
 
@@ -49,7 +49,7 @@ Advanced orchestration with parallel execution and incident engineering.
 ## Integration
 
 Both prompts work with:
-- Specialized agents ([[AI-Platform-Agents]])
-- RAG knowledge base ([[AI-Knowledge-Bases]])
+- Specialized agents ([AI Platform Agents](AI-Platform-Agents.md))
+- RAG knowledge base ([AI Knowledge Bases](AI-Knowledge-Bases.md))
 - Agent workspace (in-memory coordination)
 - A2A protocol for agent-to-agent communication

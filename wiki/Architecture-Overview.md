@@ -10,7 +10,7 @@ Open-source components for the cloud-edge continuum -- uniform infrastructure fr
 | **Data Fabric** | Standards and tooling for decentralized self-describing application resources. |
 | **Konfidence** | Software delivery framework for microservice SaaS -- ring deployments, feature toggles, CNCF-based. |
 | **Kubernetes** | Vanilla K8s for cloud-native workloads. |
-| **Gardener** | Managed Kubernetes-as-a-Service across infra providers. Nodes run [[Operating-Systems|Garden Linux]]. |
+| **Gardener** | Managed Kubernetes-as-a-Service across infra providers. Nodes run [Garden Linux](1-bare-metal/Operating-Systems.md). |
 | **IronCore / CobaltCore** | IaaS flavors -- compute, network, storage. CobaltCore = OpenStack API; IronCore = declarative K8s-style. |
 | **Bare Metal Automation** | Manage bare metal via K8s principles, BMC/Redfish. |
 

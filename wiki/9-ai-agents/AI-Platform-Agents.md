@@ -39,4 +39,4 @@ Each agent follows a common pattern:
 
 Tool: [openapi-mcp-codegen](https://github.com/cnoe-io/openapi-mcp-codegen) — generates MCP server code from any OpenAPI specification.
 
-See also: [[AI-Agents-Architecture]], [[AI-Agents-Overview]], [[Developer-Portal]], [[CI-CD]], [[Observability]]
+See also: [AI Agents Architecture](AI-Agents-Architecture.md), [AI Agents Overview](AI-Agents-Overview.md), [Developer Portal](../10-portals/Developer-Portal.md), [CI CD](../4-kubernetes/CI-CD.md), [Observability](../8-platform-mesh/Observability.md)

@@ -14,4 +14,4 @@ Central service that collects all ORD-based metadata of participating services. 
 
 Standardized metadata model ensuring consistent identification of business objects independent of resource or service naming conventions. Uses dedicated annotations to define the business object associated with an API.
 
-See also: [[Data-Fabric-Landscape]], [[Data-Fabric-Principles]]
+See also: [Data Fabric Landscape](Data-Fabric-Landscape.md), [Data Fabric Principles](Data-Fabric-Principles.md)

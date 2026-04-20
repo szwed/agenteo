@@ -10,4 +10,4 @@ A **service orchestration environment** provides an API for creating, configurin
 - **Private/sovereign clouds** - services and providers within same (potentially air-gapped) data centers; Apeiro provides packaging/install/maintenance tools
 - **Edge** - core designed for compacted form factor deployment
 
-See also: [[Platform-Mesh]]
+See also: [Platform Mesh](Platform-Mesh.md)

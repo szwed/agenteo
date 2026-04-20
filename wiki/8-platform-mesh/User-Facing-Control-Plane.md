@@ -4,7 +4,7 @@ kcp is the foundation for Platform Mesh service management. Extracts the declara
 
 ## Hierarchical Workspaces
 
-Workspaces provide isolated Kubernetes-like control planes with own API resources and objects. Hierarchical by nature (tree structure, fully-qualified paths). Maps directly to the [[Platform-Mesh-Account-Model]].
+Workspaces provide isolated Kubernetes-like control planes with own API resources and objects. Hierarchical by nature (tree structure, fully-qualified paths). Maps directly to the [Platform Mesh Account Model](Platform-Mesh-Account-Model.md).
 
 Workspace types define default APIs and restrict tree branches to specific aspects.
 
@@ -12,7 +12,7 @@ Workspace types define default APIs and restrict tree branches to specific aspec
 
 Service providers define API resource schemas via **APIExport**. Consumers **bind** to these offerings, making APIs available in their workspace. Providers get access to all objects from their APIExport via special endpoints for reconciliation. Access limited to APIs they provide, guarded by authorization checks.
 
-Directly supports the [[Managed-Service-Provider-Pattern]].
+Directly supports the [Managed Service Provider Pattern](Managed-Service-Provider-Pattern.md).
 
 ## Marketplace Support
 
@@ -20,6 +20,6 @@ APIExports and APIBindings create a marketplace experience. Consumers browse ava
 
 ## Consumer Experience
 
-Unified KRM API surface for declarative service consumption across providers. Cross-provider compositions via standard resources (e.g. Secret exchange). Interaction via [[OpenMFP]], kubectl, IaC, or GitOps.
+Unified KRM API surface for declarative service consumption across providers. Cross-provider compositions via standard resources (e.g. Secret exchange). Interaction via [OpenMFP](../5-software-delivery/OpenMFP.md), kubectl, IaC, or GitOps.
 
-See also: [[Platform-Mesh]]
+See also: [Platform Mesh](Platform-Mesh.md)

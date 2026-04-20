@@ -29,20 +29,20 @@ Kubernetes-native platforms favor the distributed model -- CoreDNS and service m
 ## Integration with Config and Secret Stores
 
 Service discovery works alongside:
-- **Config repositories** ([[GitOps-and-Repositories]]) -- Service endpoints stored as config for bootstrapping
-- **Secret repositories** ([[Secrets-Management]]) -- Connection credentials managed separately from discovery
+- **Config repositories** ([GitOps and Repositories](GitOps-and-Repositories.md)) -- Service endpoints stored as config for bootstrapping
+- **Secret repositories** ([Secrets Management](../8-platform-mesh/Secrets-Management.md)) -- Connection credentials managed separately from discovery
 - **External Secrets Operator** -- Retrieves secrets from Vault/KMS and makes them available as Kubernetes secrets, completing the bootstrapping chain: discover service, fetch credentials, connect
 
 ## CNOE and ApeiroRA Context
 
-In CNOE's IDP model, service discovery is typically handled by Kubernetes-native mechanisms (CoreDNS, Ingress, service mesh) rather than standalone registries. The [[IDP-Reference-Implementation]] uses ingress-nginx for service routing and CoreDNS for in-cluster resolution.
+In CNOE's IDP model, service discovery is typically handled by Kubernetes-native mechanisms (CoreDNS, Ingress, service mesh) rather than standalone registries. The [IDP Reference Implementation](../10-portals/IDP-Reference-Implementation.md) uses ingress-nginx for service routing and CoreDNS for in-cluster resolution.
 
-In ApeiroRA, service discovery extends across the [[Platform-Mesh]] -- the [[Service-Concepts]] model and [[Managed-Service-Provider-Pattern]] define how services are published and consumed across organizational boundaries.
+In ApeiroRA, service discovery extends across the [Platform Mesh](../8-platform-mesh/Platform-Mesh.md) -- the [Service Concepts](../8-platform-mesh/Service-Concepts.md) model and [Managed Service Provider Pattern](../8-platform-mesh/Managed-Service-Provider-Pattern.md) define how services are published and consumed across organizational boundaries.
 
 ## See Also
 
-- [[Service-Concepts]] -- Service model in the platform mesh
-- [[Managed-Service-Provider-Pattern]] -- Cross-boundary service consumption
-- [[GitOps-and-Repositories]] -- Config repos for service endpoint configuration
-- [[Secrets-Management]] -- Credentials for discovered services
-- [[CNOE]] -- Framework overview
+- [Service Concepts](../8-platform-mesh/Service-Concepts.md) -- Service model in the platform mesh
+- [Managed Service Provider Pattern](../8-platform-mesh/Managed-Service-Provider-Pattern.md) -- Cross-boundary service consumption
+- [GitOps and Repositories](GitOps-and-Repositories.md) -- Config repos for service endpoint configuration
+- [Secrets Management](../8-platform-mesh/Secrets-Management.md) -- Credentials for discovered services
+- [CNOE](../CNOE.md) -- Framework overview

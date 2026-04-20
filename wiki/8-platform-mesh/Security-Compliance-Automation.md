@@ -27,4 +27,4 @@ Transition from **tool-centric** to **model-centric** setup:
 - **OCM Gear** - extensible toolbox as OCM reference implementation; central process engine correlating metadata using OCM identities; integrates with scanners and external data sources
 - Audit-safe re-prioritization reduces false positive fatigue
 
-See also: [[Software-Bill-of-Delivery]], [[Security]]
+See also: [Software Bill of Delivery](../5-software-delivery/Software-Bill-of-Delivery.md), [Security](Security.md)

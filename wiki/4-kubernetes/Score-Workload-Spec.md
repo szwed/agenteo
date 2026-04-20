@@ -64,7 +64,7 @@ Custom implementations can target Helm, Cloud Run, Nomad, or any platform.
 
 ## Relation to KRM
 
-Score and [[KRM]] are complementary:
+Score and [KRM](KRM.md) are complementary:
 
 - **Score** targets the **developer experience** layer — what a workload needs, in platform-neutral terms
 - **KRM** targets the **platform internals** layer — how resources are modeled, reconciled, and composed within Kubernetes
@@ -73,6 +73,6 @@ A platform team could accept Score files from developers and translate them into
 
 ## See Also
 
-- [[KRM]] — Kubernetes Resource Model
-- [[Developer-Portal]] — where developers might submit Score specs
-- [[Platform-Mesh]] — the platform layer that resolves Score resource requirements
+- [KRM](KRM.md) — Kubernetes Resource Model
+- [Developer Portal](../10-portals/Developer-Portal.md) — where developers might submit Score specs
+- [Platform Mesh](../8-platform-mesh/Platform-Mesh.md) — the platform layer that resolves Score resource requirements

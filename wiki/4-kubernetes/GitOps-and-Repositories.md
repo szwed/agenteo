@@ -22,9 +22,9 @@ Config repositories store deployment configuration -- the desired state of what 
 - **Key-value and hierarchical** -- Configuration organized by environment, region, cluster
 - **Versioned** -- Every change is a Git commit with author, timestamp, message
 - **Immutable history** -- Git log provides complete audit trail
-- **No secrets** -- Secrets belong in secret stores (Vault, KMS), referenced by config but never stored in Git. See [[Secrets-Management]].
+- **No secrets** -- Secrets belong in secret stores (Vault, KMS), referenced by config but never stored in Git. See [Secrets Management](../8-platform-mesh/Secrets-Management.md).
 
-Config repos contain [[KRM-Format]] manifests (YAML), Helm charts, Kustomize overlays, or Crossplane claims. These are the "at-rest" representations of desired state.
+Config repos contain [KRM Format](KRM-Format.md) manifests (YAML), Helm charts, Kustomize overlays, or Crossplane claims. These are the "at-rest" representations of desired state.
 
 ## GitOps as a Pattern
 
@@ -36,7 +36,7 @@ GitOps connects code and config repos to the cluster through reconciling control
 4. CD controller (ArgoCD, Flux) detects config change
 5. CD controller reconciles cluster state to match config repo
 
-The reconciliation is continuous -- not a one-time deploy. If someone manually changes a resource in the cluster, the controller reverts it to match Git. This is the same [[Controller-Pattern]] that drives [[Digital-Twins]] and [[Infrastructure-as-Code]].
+The reconciliation is continuous -- not a one-time deploy. If someone manually changes a resource in the cluster, the controller reverts it to match Git. This is the same [Controller Pattern](Controller-Pattern.md) that drives [Digital Twins](Digital-Twins.md) and [Infrastructure as Code](Infrastructure-as-Code.md).
 
 ```
 Code Repo --> [CI: build/test] --> Config Repo --> [CD: reconcile] --> Cluster
@@ -55,13 +55,13 @@ Keeping code and config in separate repositories (or at least separate paths) is
 
 ## CNOE Perspective
 
-CNOE endorses Git for both code and config repositories (see [[CNOE-Technology-Choices]]). The pluggability principle means the same config repo works with either ArgoCD or Flux. The same CI pipeline output (container images, manifests) feeds any CD controller.
+CNOE endorses Git for both code and config repositories (see [CNOE Technology Choices](../CNOE-Technology-Choices.md)). The pluggability principle means the same config repo works with either ArgoCD or Flux. The same CI pipeline output (container images, manifests) feeds any CD controller.
 
 ## See Also
 
-- [[KRM-Format]] -- The at-rest manifest format stored in config repos
-- [[CI-CD]] -- CI and CD tools that operate on these repositories
-- [[Controller-Pattern]] -- Reconciliation loop connecting Git to clusters
-- [[Secrets-Management]] -- Why secrets stay out of Git
-- [[Infrastructure-as-Code]] -- IaC manifests also stored in config repos
-- [[CNOE]] -- Framework overview
+- [KRM Format](KRM-Format.md) -- The at-rest manifest format stored in config repos
+- [CI CD](CI-CD.md) -- CI and CD tools that operate on these repositories
+- [Controller Pattern](Controller-Pattern.md) -- Reconciliation loop connecting Git to clusters
+- [Secrets Management](../8-platform-mesh/Secrets-Management.md) -- Why secrets stay out of Git
+- [Infrastructure as Code](Infrastructure-as-Code.md) -- IaC manifests also stored in config repos
+- [CNOE](../CNOE.md) -- Framework overview

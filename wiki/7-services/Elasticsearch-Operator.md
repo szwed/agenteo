@@ -27,7 +27,7 @@ Manages Elasticsearch clusters and related components (Kibana, APM, Fleet, Beats
 - Autoscaling based on storage and memory
 - Secure by default (TLS, RBAC)
 
-Part of the [[Observability]] stack.
+Part of the [Observability](../8-platform-mesh/Observability.md) stack.
 
 ## Links
 

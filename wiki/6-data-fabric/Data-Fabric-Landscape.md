@@ -17,4 +17,4 @@ Prerequisite: metadata model must be onboarded into UMS.
 
 Landscape resource viewer acts as ORD consumer, providing visual representation of aggregated metadata as a metadata graph. Additional consumption use cases supported.
 
-See also: [[Data-Fabric-Components]], [[Data-Fabric]]
+See also: [Data Fabric Components](Data-Fabric-Components.md), [Data Fabric](Data-Fabric.md)

@@ -1,6 +1,6 @@
 # Validation and Policy
 
-Validation and policy enforcement form the guardrail layer of a cloud-native platform. They ensure that resources entering or running in a cluster meet security, compliance, and organizational requirements. CNOE identifies validation as a core IDP capability; ApeiroRA embeds it in the [[Digital-Twins-Extensibility]] model through CRD validation and CEL expressions.
+Validation and policy enforcement form the guardrail layer of a cloud-native platform. They ensure that resources entering or running in a cluster meet security, compliance, and organizational requirements. CNOE identifies validation as a core IDP capability; ApeiroRA embeds it in the [Digital Twins Extensibility](Digital-Twins-Extensibility.md) model through CRD validation and CEL expressions.
 
 ## API Validation
 
@@ -9,7 +9,7 @@ Kubernetes provides built-in validation through OpenAPI v3 schemas defined in CR
 - **Structural schemas** -- Required fields, types, enums, ranges
 - **CEL (Common Expression Language)** -- Kubernetes 1.25+ supports CEL validation rules directly in CRD definitions. Complex cross-field validation without external webhooks.
 
-This is the first line of defense: malformed resources are rejected before any controller sees them. See [[Digital-Twins-Extensibility]] for how ApeiroRA uses CRD validation and CEL.
+This is the first line of defense: malformed resources are rejected before any controller sees them. See [Digital Twins Extensibility](Digital-Twins-Extensibility.md) for how ApeiroRA uses CRD validation and CEL.
 
 ## Admission Control as Policy Plane
 
@@ -33,11 +33,11 @@ Policy engines enforce:
 - **Regulatory requirements** -- Resource tagging, encryption mandates, data residency constraints
 - **Organizational standards** -- Required labels (cost center, team), resource limits, naming conventions
 
-These guardrails complement [[Infrastructure-as-Code]] -- Crossplane compositions encode infrastructure policy, while admission controllers enforce cluster-level policy.
+These guardrails complement [Infrastructure as Code](Infrastructure-as-Code.md) -- Crossplane compositions encode infrastructure policy, while admission controllers enforce cluster-level policy.
 
 ## Binary Authorization with Signing
 
-Validation combines with cryptographic signing ([[Signing-and-Supply-Chain]]) for binary authorization:
+Validation combines with cryptographic signing ([Signing and Supply Chain](Signing-and-Supply-Chain.md)) for binary authorization:
 
 1. CI pipeline builds and signs container images
 2. Admission controller verifies signatures before allowing deployment
@@ -47,15 +47,15 @@ Kyverno and OPA Gatekeeper both support image signature verification (e.g., with
 
 ## CNOE Perspective
 
-CNOE includes "CNOE Validators" in its technology choices (see [[CNOE-Technology-Choices]]). The reference implementation recommends OPA Gatekeeper or Kyverno alongside Crossplane compositions that embed policy as infrastructure defaults.
+CNOE includes "CNOE Validators" in its technology choices (see [CNOE Technology Choices](../CNOE-Technology-Choices.md)). The reference implementation recommends OPA Gatekeeper or Kyverno alongside Crossplane compositions that embed policy as infrastructure defaults.
 
 The approach follows the "standardized to the infrastructure, customizable by the developers" tenet -- policy is enforced transparently, developers do not need to manage it.
 
 ## See Also
 
-- [[Digital-Twins-Extensibility]] -- CRD validation, CEL expressions
-- [[Signing-and-Supply-Chain]] -- Cryptographic integrity verification
-- [[Security-Compliance-Automation]] -- Broader compliance automation
-- [[Infrastructure-as-Code]] -- Policy embedded in IaC abstractions
-- [[Platform-Mesh-Security]] -- Security across the platform mesh
-- [[CNOE]] -- Framework overview
+- [Digital Twins Extensibility](Digital-Twins-Extensibility.md) -- CRD validation, CEL expressions
+- [Signing and Supply Chain](Signing-and-Supply-Chain.md) -- Cryptographic integrity verification
+- [Security Compliance Automation](../8-platform-mesh/Security-Compliance-Automation.md) -- Broader compliance automation
+- [Infrastructure as Code](Infrastructure-as-Code.md) -- Policy embedded in IaC abstractions
+- [Platform Mesh Security](../8-platform-mesh/Platform-Mesh-Security.md) -- Security across the platform mesh
+- [CNOE](../CNOE.md) -- Framework overview

@@ -30,4 +30,4 @@ Relationship-Based Access Control (Zanzibar approach). Access derived from relat
 - Hierarchical permission inheritance through relationship graph
 - Service relationship authorization via export/bind mechanisms
 
-See also: [[Platform-Mesh]], [[Platform-Mesh-Account-Model]]
+See also: [Platform Mesh](Platform-Mesh.md), [Platform Mesh Account Model](Platform-Mesh-Account-Model.md)

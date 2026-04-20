@@ -1,6 +1,6 @@
 # AI Knowledge Bases
 
-RAG-powered knowledge platform for [[AI-Agents-Overview]]. Combines vector-based retrieval and graph-based reasoning to provide contextually relevant information to AI agents and users.
+RAG-powered knowledge platform for [AI Agents Overview](AI-Agents-Overview.md). Combines vector-based retrieval and graph-based reasoning to provide contextually relevant information to AI agents and users.
 
 ## Key Capabilities
 
@@ -59,5 +59,5 @@ Any MCP-compatible client can connect (Claude Desktop, VS Code, Cursor, LangGrap
 
 ## See Also
 
-- [[AI-Platform-Agents]] — agents that consume knowledge base tools
-- [[AI-Agents-UI]] — UI includes knowledge base search and graph views
+- [AI Platform Agents](AI-Platform-Agents.md) — agents that consume knowledge base tools
+- [AI Agents UI](AI-Agents-UI.md) — UI includes knowledge base search and graph views

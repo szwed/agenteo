@@ -10,4 +10,4 @@ Used across manufacturing, healthcare, urban planning, automotive to improve eff
 2. **Feedback loop** -- enables simulation, analysis, optimization, orchestration
 3. **Actuators** -- controllers that close the loop, providing control over complex systems
 
-See also: [[KRM]], [[Controller-Pattern]], [[Digital-Twins-Extensibility]]
+See also: [KRM](KRM.md), [Controller Pattern](Controller-Pattern.md), [Digital Twins Extensibility](Digital-Twins-Extensibility.md)

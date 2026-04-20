@@ -47,17 +47,17 @@ Kratix's concepts align closely with ApeiroRA patterns:
 
 | Kratix | ApeiroRA |
 |---|---|
-| Promise | [[Managed-Service-Provider-Pattern]] — both define a contract for offering capabilities via declarative API |
-| Promise API (CRD) | [[KRM]] / [[Digital-Twins-Extensibility]] — extending Kubernetes API with domain resources |
-| Workflows | [[Security-Compliance-Automation]] + [[Validation-and-Policy]] — codified governance |
-| Platform cluster | [[Service-Provider-Control-Planes]] — centralized control plane for service definitions |
-| Worker clusters | [[Control-Data-Work-Planes]] — separation of control, data, and work planes |
+| Promise | [Managed Service Provider Pattern](Managed-Service-Provider-Pattern.md) — both define a contract for offering capabilities via declarative API |
+| Promise API (CRD) | [KRM](../4-kubernetes/KRM.md) / [Digital Twins Extensibility](../4-kubernetes/Digital-Twins-Extensibility.md) — extending Kubernetes API with domain resources |
+| Workflows | [Security Compliance Automation](Security-Compliance-Automation.md) + [Validation and Policy](../4-kubernetes/Validation-and-Policy.md) — codified governance |
+| Platform cluster | [Service Provider Control Planes](Service-Provider-Control-Planes.md) — centralized control plane for service definitions |
+| Worker clusters | [Control Data Work Planes](../4-kubernetes/Control-Data-Work-Planes.md) — separation of control, data, and work planes |
 
-Kratix can serve as an **implementation technology** within the [[Platform-Mesh]] for defining and delivering [[Service-Concepts]].
+Kratix can serve as an **implementation technology** within the [Platform Mesh](Platform-Mesh.md) for defining and delivering [Service Concepts](Service-Concepts.md).
 
 ## See Also
 
-- [[Service-Concepts]]
-- [[Managed-Service-Provider-Pattern]]
-- [[Platform-Mesh]]
-- [[CNCF-Platforms-White-Paper]]
+- [Service Concepts](Service-Concepts.md)
+- [Managed Service Provider Pattern](Managed-Service-Provider-Pattern.md)
+- [Platform Mesh](Platform-Mesh.md)
+- [CNCF Platforms White Paper](../CNCF-Platforms-White-Paper.md)

@@ -4,7 +4,7 @@
 
 ## Overview
 
-Argo CD continuously monitors Git repositories and reconciles the live cluster state with the desired state defined in Git. See [[CI-CD]] for broader context on continuous delivery patterns.
+Argo CD continuously monitors Git repositories and reconciles the live cluster state with the desired state defined in Git. See [CI CD](../4-kubernetes/CI-CD.md) for broader context on continuous delivery patterns.
 
 ## CRDs
 
